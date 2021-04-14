@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "../src/components/NavBar";
 import MainInfo from "../src/components/MainInfo";
+import MainImage from "../src/components/MainImage";
 import faker from "faker";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <h1>Gabe's Portfolio</h1>
 
       <MainInfo />
+      <MainImage />
     </div>
   );
 }
