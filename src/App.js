@@ -1,16 +1,17 @@
 import "./App.css";
 import NavBar from "../src/components/NavBar";
+import MainInfo from "../src/components/MainInfo";
+import faker from "faker";
 
 function App() {
+  let randomName = faker.name.findName();
   return (
     <div className="App">
-        <NavBar />
+      <NavBar />
 
-        <h1>Gabe's Portfolio</h1>
+      <h1>Gabe's Portfolio</h1>
 
-        <div className="p-5 alert alert-primary">
-            does it work
-        </div>
+      <MainInfo />
     </div>
   );
 }
