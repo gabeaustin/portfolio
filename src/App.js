@@ -10,20 +10,21 @@ function App() {
     <div className="App container">
       <NavBar />
 
-      <h1>Gabe's Portfolio</h1>
-      <div className="row">
+      <div className="mb-5">
+        <h1>Gabe's Portfolio</h1>
+      </div>
 
+      <div className="row mt-5">
         <div className="col-md-4 ">
           <MainInfo />
         </div>
-        
+
         <div className="col-md-2 "></div>
         <div className="col-md-2 "></div>
 
         <div className="col-md-4 ">
           <MainImage />
         </div>
-
       </div>
     </div>
   );

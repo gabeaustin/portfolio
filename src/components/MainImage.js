@@ -6,14 +6,12 @@ class MainImage extends Component {
     let randomAvatar = faker.image.avatar();
     return (
       <>
-        <div className="card shadow p-3 mb-5">
-          <div className="card-body bg-warning">
-            <img
-              src={randomAvatar}
-              alt="Photo of Gabriel Austin"
-              className="rounded-circle"
-            />
-          </div>
+        <div>
+          <img
+            src={randomAvatar}
+            alt="Photo of Gabriel Austin"
+            className="rounded-circle"
+          />
         </div>
       </>
     );
