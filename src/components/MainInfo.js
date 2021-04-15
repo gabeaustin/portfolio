@@ -4,11 +4,13 @@ import faker from "faker";
 class MainInfo extends Component {
   render() {
     let randomParagraph = faker.lorem.paragraph();
-    let randomWords = faker.internet.userName();
+    let randomFirstName = faker.name.firstName();
+    let randomLastName = faker.name.lastName();
+
     return (
       <>
         <div className="container mb-4">
-          <div className="font-weight-bold mb-2">{randomWords}</div>
+          <div className="font-weight-bold mb-2">{randomFirstName}<span> {randomLastName}</span></div>
           <div>{randomParagraph}</div>
         </div>
 

@@ -6,22 +6,22 @@ class NavBar extends Component {
       <div className="sticky-top">
         <ul class="nav justify-content-end navbar-right">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link NavBar-homeBtn" aria-current="page" href="#">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link NavBar-aboutBtn" href="#">
               About
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link NavBar-resumeBtn" href="#">
               Resume
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link NavBar-contactBtn" href="#">
               Contact
             </a>
           </li>

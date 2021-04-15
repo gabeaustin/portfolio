@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "../src/components/NavBar";
 import MainInfo from "../src/components/MainInfo";
 import MainImage from "../src/components/MainImage";
+import JobInfoJson from "./components/JobInfoJson";
 import faker from "faker";
 
 function App() {
@@ -15,15 +16,18 @@ function App() {
       </div>
 
       <div className="row mt-5">
-        <div className="col-md-4 ">
+        <div className="col-md-3 ">
           <MainInfo />
         </div>
 
         <div className="col-md-2 "></div>
-        <div className="col-md-2 "></div>
+        <div className="col-md-3 ">
+          <MainImage />
+
+        </div>
 
         <div className="col-md-4 ">
-          <MainImage />
+            <JobInfoJson />
         </div>
       </div>
     </div>

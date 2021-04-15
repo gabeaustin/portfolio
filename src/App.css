@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+
+.NavBar-homeBtn:hover,
+.NavBar-aboutBtn:hover,
+.NavBar-resumeBtn:hover,
+.NavBar-contactBtn:hover {
+    text-decoration: underline;
+}
