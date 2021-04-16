@@ -8,7 +8,7 @@ class MainInfo extends Component {
     let randomParagraph = faker.lorem.paragraph();
     let randomFirstName = faker.name.firstName();
     let randomLastName = faker.name.lastName();
-    const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
+    // const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
 
     return (
       <>
@@ -25,7 +25,7 @@ class MainInfo extends Component {
 
 
         <div>
-        {linkedInIcon}
+        {/* {linkedInIcon} */}
         </div>
       </>
     );
