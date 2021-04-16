@@ -18,7 +18,7 @@ class MainInfo extends Component {
         </div>
 
         <div>
-          <button type="button" class="btn btn-outline-warning">
+          <button type="button" class="btn btn-info">
             My Projects
           </button>
         </div>
