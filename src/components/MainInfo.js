@@ -12,9 +12,13 @@ class MainInfo extends Component {
 
     return (
       <>
-        <div className="container mb-4">
-          <div className="font-weight-bold mb-2">{randomFirstName}<span> {randomLastName}</span></div>
-          <div>{randomParagraph}</div>
+        <div className="container mb-3">
+          <div className="font-weight-bold mb-2 h1" id="ownerName">Gabriel Austin</div> <br />
+          <div className="font-weight-bold mb-2 h3" id="ownerNextLevel">Next Level</div> <br />
+          <div className="font-weight-bold mb-2 h3" id="ownerTitle">Web Developer</div> <br />
+
+          <hr className="mainPageMiddleHr" />
+          <div id="ownerDesc">{randomParagraph}</div>
         </div>
 
         <div>
@@ -23,9 +27,8 @@ class MainInfo extends Component {
           </button>
         </div>
 
-
+        {/* social media below */}
         <div>
-        {/* {linkedInIcon} */}
         </div>
       </>
     );

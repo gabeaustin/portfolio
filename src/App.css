@@ -17,7 +17,14 @@
 .NavBar-aboutBtn:hover,
 .NavBar-resumeBtn:hover,
 .NavBar-contactBtn:hover {
-  text-decoration: underline;
+  text-decoration: underline #f78733;
+  /* color: #f78733; */
+}
+
+a,
+a:visited,
+a:hover {
+  color: #f78733;
 }
 
 body {
@@ -53,4 +60,24 @@ body {
   color: #f78733;
   border-color: #f78733;
   background-color: transparent;
+}
+
+#ownerName,
+#ownerNextLevel,
+#ownerTitle {
+  color: #f8f8f8;
+  text-transform: uppercase;
+  float: left;
+}
+
+#ownerDesc {
+    float: left;
+}
+
+/* needs work */
+.mainPageMiddleHr {
+    width: 15%;
+    height: 20px;
+    border: 0 none;
+    color: #f78733;
 }
