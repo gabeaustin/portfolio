@@ -32,3 +32,15 @@ body {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.75);
 }
+
+/* bootstrap btn color override */
+.btn-outline-warning {
+    color: #EF1932;
+    border-color: #EF1932;
+}
+
+.btn-outline-warning:hover {
+    color: #f8f8f8;
+    background-color: #EF1932;
+    border-color: #EF1932;
+}
