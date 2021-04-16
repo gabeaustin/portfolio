@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
 import faker from "faker";
 
 class MainInfo extends Component {
@@ -6,6 +8,7 @@ class MainInfo extends Component {
     let randomParagraph = faker.lorem.paragraph();
     let randomFirstName = faker.name.firstName();
     let randomLastName = faker.name.lastName();
+    const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
 
     return (
       <>
@@ -18,6 +21,11 @@ class MainInfo extends Component {
           <button type="button" class="btn btn-outline-warning">
             My Projects
           </button>
+        </div>
+
+
+        <div>
+        {linkedInIcon}
         </div>
       </>
     );
