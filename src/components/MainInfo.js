@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-solid-svg-icons";
 import faker from "faker";
 
 class MainInfo extends Component {
@@ -13,11 +13,19 @@ class MainInfo extends Component {
     return (
       <>
         <div className="container mb-3">
-          <div className="font-weight-bold mb-2 h1" id="ownerName">Gabriel Austin</div> <br />
-          <div className="font-weight-bold mb-2 h3" id="ownerNextLevel">Next Level</div> <br />
-          <div className="font-weight-bold mb-2 h3" id="ownerTitle">Web Developer</div> <br />
-
-          <hr className="mainPageMiddleHr" />
+          <div className="font-weight-bold mb-2 h1" id="ownerName">
+            GABRIEL AUSTIN
+            <hr className="mainPageMiddleHr" />
+          </div>{" "}
+          <br />
+          <div className="font-weight-bold mb-2 h3" id="ownerNextLevel">
+            NEXT LEVEL
+          </div>{" "}
+          <br />
+          <div className="font-weight-bold mb-2 h3" id="ownerTitle">
+            WEB DEVELOPER
+          </div>{" "}
+          <br />
           <div id="ownerDesc">{randomParagraph}</div>
         </div>
 
@@ -28,8 +36,7 @@ class MainInfo extends Component {
         </div>
 
         {/* social media below */}
-        <div>
-        </div>
+        <div></div>
       </>
     );
   }
