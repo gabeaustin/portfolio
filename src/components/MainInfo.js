@@ -30,7 +30,7 @@ class MainInfo extends Component {
         </div>
 
         <div>
-          <button type="button" class="btn btn-info">
+          <button type="button" class="btn btn-warning">
             My Projects
           </button>
         </div>

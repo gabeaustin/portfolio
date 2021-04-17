@@ -8,8 +8,8 @@
 #f8f8f8 - text color */
 
 .App {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: center; */
+  font-family: "Raleway", sans-serif;
   color: #f8f8f8;
 }
 
@@ -28,38 +28,34 @@ a:hover {
 }
 
 body {
+  position: absolute;
   height: 100%;
   margin: 0;
   background-color: #242526;
   background-image: url(./images/homescreen-cover-img.jpeg);
   width: 100%;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .img-overlay {
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   height: 100%;
   margin: 0;
   width: 100%;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(36, 37, 38, 0.75);
-}
-
-/* bootstrap btn color override */
-.btn {
-  color: #f8f8f8;
-  border-color: #f78733;
-  background-color: #f78733;
-}
-
-.btn:hover {
-  color: #f78733;
-  border-color: #f78733;
-  background-color: transparent;
+  z-index: 99;
 }
 
 #ownerName,
@@ -82,4 +78,14 @@ hr.mainPageMiddleHr {
   margin: 5px 0 20px;
   height: 0;
   opacity: 1;
+}
+
+/* media queries */
+/* @media (min-width: 576px) { */
+/* @media (max-width: 767.98px) { */
+@media (max-width: 991.98px) {
+  body {
+    background-color: #242526;
+    background-image: none;
+  }
 }
