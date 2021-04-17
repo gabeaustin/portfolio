@@ -39,6 +39,10 @@ body {
   z-index: 0;
 }
 
+#navbarLink {
+  font-size: 18px;
+}
+
 .img-overlay {
   position: absolute;
   top: 0;
@@ -54,19 +58,22 @@ body {
   z-index: 99;
 }
 
-.nav-link {
-    
-}
-
 #ownerName {
   font-weight: 500;
-  line-height: 0.25;
+  line-height: 0.5;
+  font-size: 60px;
+}
+
+#ownerDesc {
+  font-weight: 200;
+  font-size: 22px;
 }
 
 #ownerNextLevel,
 #ownerTitle {
   font-weight: 200;
-  line-height: 0;
+  line-height: 0.3;
+  font-size: 35px;
 }
 
 #ownerName,

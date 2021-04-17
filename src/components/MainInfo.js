@@ -1,36 +1,32 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-solid-svg-icons";
-import faker from "faker";
 
 class MainInfo extends Component {
   render() {
-    let randomParagraph = faker.lorem.paragraph();
-    let randomFirstName = faker.name.firstName();
-    let randomLastName = faker.name.lastName();
     // const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
 
     return (
       <>
         <div className="container mb-3">
-          <div className="mb-2 h1" id="ownerName">
+          <div className="mb-2" id="ownerName">
             GABRIEL AUSTIN
             <hr className="mainPageMiddleHr" />
           </div>{" "}
           <br />
-          <div className="h2" id="ownerNextLevel">
-            NEXT LEVEL
-          </div>{" "}
-          <br />
-          <div className="h2" id="ownerTitle">
-            WEB DEVELOPER
-          </div>{" "}
-          <br />
+          <div id="ownerNextLevel">NEXT LEVEL</div> <br />
+          <div id="ownerTitle">WEB DEVELOPER</div> <br />
           <div className="mb-3" id="ownerDesc">
-            {randomParagraph}
+            I.T. Professional with the Superpower to Communicate Technical
+            Information to Non-Technical Audiences
           </div>
-          <div>
-            <button type="button" class="btn btn-warning py-3 px-5">
+          <div className="d-grid gap-3 col-6 mx-auto">
+            {/* displays on non-mobile */}
+            <button
+              type="button"
+              class="btn btn-warning btn-lg py-2 px-5"
+              id="btnNonMobile"
+            >
               My Projects
             </button>
           </div>
