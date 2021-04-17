@@ -26,13 +26,14 @@ class MainInfo extends Component {
             WEB DEVELOPER
           </div>{" "}
           <br />
-          <div id="ownerDesc">{randomParagraph}</div>
-        </div>
-
-        <div>
-          <button type="button" class="btn btn-warning">
-            My Projects
-          </button>
+          <div className="mb-3" id="ownerDesc">
+            {randomParagraph}
+          </div>
+          <div>
+            <button type="button" class="btn btn-warning py-3 px-5">
+              My Projects
+            </button>
+          </div>
         </div>
 
         {/* social media below */}
