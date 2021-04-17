@@ -82,6 +82,10 @@ body {
   color: #f8f8f8;
 }
 
+.specialText {
+    color: #ffc107;
+}
+
 hr.mainPageMiddleHr {
   width: 25%;
   border: solid #ffc107;

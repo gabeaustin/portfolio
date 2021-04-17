@@ -14,11 +14,20 @@ class MainInfo extends Component {
             <hr className="mainPageMiddleHr" />
           </div>{" "}
           <br />
-          <div id="ownerNextLevel">NEXT LEVEL</div> <br />
+          <div id="ownerNextLevel">
+            <span className="specialText">NEXT LEVEL</span>
+          </div>{" "}
+          <br />
           <div id="ownerTitle">WEB DEVELOPER</div> <br />
           <div className="mb-3" id="ownerDesc">
-            I.T. Professional with the Superpower to Communicate Technical
-            Information to Non-Technical Audiences
+            <p>
+              I am an I.T. Professional with the{" "}
+              <span className="specialText">superpower</span> to communicate
+              technical information to non-technical audiences.
+            </p>
+            My current career path: IT -> Banking -> Education -> IT <br />
+            My <span className="specialText">future</span> career path: Web
+            Developer -> Scrum Master -> Project Manager
           </div>
           <div className="d-grid gap-3 col-6 mx-auto">
             {/* displays on non-mobile */}
