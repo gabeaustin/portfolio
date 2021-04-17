@@ -13,6 +13,21 @@ class MainImage extends Component {
             className="rounded-circle"
           />
         </div>
+
+        <div className="mb-3" id="ownerDesc">
+          <div>
+            Web Developer at{" "}
+            <span className="jobTitle">
+              <span className="specialText">&#65371;</span> yourCompanyName{" "}
+              <span className="specialText">&#65373;</span>
+            </span>
+          </div>
+          <hr className="mainPageMiddleHr" />
+          <div>
+            HTML | CSS | JavaScript | Ruby | Version Control (Git) | Agile Web
+            Development | Scrum | Project Management | Training/Teaching
+          </div>
+        </div>
       </>
     );
   }

@@ -86,6 +86,11 @@ body {
     color: #ffc107;
 }
 
+.jobTitle {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 hr.mainPageMiddleHr {
   width: 25%;
   border: solid #ffc107;

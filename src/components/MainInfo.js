@@ -25,9 +25,10 @@ class MainInfo extends Component {
               <span className="specialText">superpower</span> to communicate
               technical information to non-technical audiences.
             </p>
-            My current career path: IT -> Banking -> Education -> IT <br />
-            My <span className="specialText">future</span> career path: Web
-            Developer -> Scrum Master -> Project Manager
+            <span className="specialText">Current</span> career path: <br />
+            IT -> Banking -> Education -> IT <br />
+            <span className="specialText">Future</span> career path: <br />
+            Web Developer -> Scrum Master -> Project Manager
           </div>
           <div className="d-grid gap-3 col-6 mx-auto">
             {/* displays on non-mobile */}
