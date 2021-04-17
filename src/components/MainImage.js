@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import faker from "faker";
+import cartoonMac from "../images/cartoon-me-macbook.PNG";
 
 class MainImage extends Component {
   render() {
-    let randomAvatar = faker.image.avatar();
     return (
       <>
         <div>
           <img
-            src={randomAvatar}
+            src={cartoonMac}
             alt="Photo of Gabriel Austin"
             className="rounded-circle"
           />
@@ -24,8 +23,14 @@ class MainImage extends Component {
           </div>
           <hr className="mainPageMiddleHr" />
           <div>
-            HTML | CSS | JavaScript | Ruby | Version Control (Git) | Agile Web
-            Development | Scrum | Project Management | Training/Teaching
+            HTML <span className="specialText">|</span> CSS{" "}
+            <span className="specialText">|</span> JavaScript{" "}
+            <span className="specialText">|</span> Ruby{" "}
+            <span className="specialText">|</span> Version Control (Git){" "}
+            <span className="specialText">|</span> Agile Web Development{" "}
+            <span className="specialText">|</span> Scrum{" "}
+            <span className="specialText">|</span> Project Management{" "}
+            <span className="specialText">|</span> Training/Teaching
           </div>
         </div>
       </>

@@ -83,18 +83,29 @@ body {
 }
 
 .specialText {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 .jobTitle {
-    overflow: hidden;
-    white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 hr.mainPageMiddleHr {
   width: 25%;
   border: solid #ffc107;
   border-width: 5px 0 0;
+  clear: both;
+  /* margin: 5px 0 20px; */
+  height: 0;
+  opacity: 1;
+}
+
+/* Needs work */
+hr.careerPathHr {
+  width: 11%;
+  border: solid #ffc107;
+  border-width: 1px 0 0;
   clear: both;
   /* margin: 5px 0 20px; */
   height: 0;

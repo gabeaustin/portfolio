@@ -25,13 +25,16 @@ class MainInfo extends Component {
               <span className="specialText">superpower</span> to communicate
               technical information to non-technical audiences.
             </p>
-            <span className="specialText">Current</span> career path: <br />
-            IT -> Banking -> Education -> IT <br />
+            {/* move this section to about or resume section */}
+            {/* <span className="specialText">Current</span> career path: <br />
+            <hr className="careerPathHr" />
+            IT - Banking - Education - IT <br />
             <span className="specialText">Future</span> career path: <br />
-            Web Developer -> Scrum Master -> Project Manager
+            <hr className="careerPathHr" />
+            Web Developer - Scrum Master - Project Manager */}
           </div>
+          {/* move this section to about or resume section */}
           <div className="d-grid gap-3 col-6 mx-auto">
-            {/* displays on non-mobile */}
             <button
               type="button"
               class="btn btn-warning btn-lg py-2 px-5"
@@ -41,9 +44,6 @@ class MainInfo extends Component {
             </button>
           </div>
         </div>
-
-        {/* social media below */}
-        <div></div>
       </>
     );
   }
