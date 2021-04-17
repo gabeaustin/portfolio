@@ -18,11 +18,11 @@ class MainInfo extends Component {
             <hr className="mainPageMiddleHr" />
           </div>{" "}
           <br />
-          <div className="h3" id="ownerNextLevel">
+          <div className="h2" id="ownerNextLevel">
             NEXT LEVEL
           </div>{" "}
           <br />
-          <div className="h3" id="ownerTitle">
+          <div className="h2" id="ownerTitle">
             WEB DEVELOPER
           </div>{" "}
           <br />

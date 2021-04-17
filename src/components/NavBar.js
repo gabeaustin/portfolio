@@ -4,7 +4,7 @@ class NavBar extends Component {
   render() {
     return (
       <div className="sticky-top">
-        <ul class="nav justify-content-end navbar-right">
+        <ul class="nav justify-content-end navbar-right h5">
           <li class="nav-item">
             <a class="nav-link NavBar-homeBtn" aria-current="page" href="#">
               Home

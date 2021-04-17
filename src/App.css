@@ -54,6 +54,10 @@ body {
   z-index: 99;
 }
 
+.nav-link {
+    
+}
+
 #ownerName {
   font-weight: 500;
   line-height: 0.25;
