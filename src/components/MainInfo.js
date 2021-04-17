@@ -13,16 +13,16 @@ class MainInfo extends Component {
     return (
       <>
         <div className="container mb-3">
-          <div className="font-weight-bold mb-2 h1" id="ownerName">
+          <div className="mb-2 h1" id="ownerName">
             GABRIEL AUSTIN
             <hr className="mainPageMiddleHr" />
           </div>{" "}
           <br />
-          <div className="font-weight-bold mb-2 h3" id="ownerNextLevel">
+          <div className="h3" id="ownerNextLevel">
             NEXT LEVEL
           </div>{" "}
           <br />
-          <div className="font-weight-bold mb-2 h3" id="ownerTitle">
+          <div className="h3" id="ownerTitle">
             WEB DEVELOPER
           </div>{" "}
           <br />
