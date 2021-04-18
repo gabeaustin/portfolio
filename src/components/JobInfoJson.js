@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import faker from "faker";
+// import faker from "faker";
 
 class JobInfoJson extends Component {
     render() {
-        let randomArrays = faker.random.arrayElements();
+        // let randomArrays = faker.random.arrayElements();
 
         return (
             <div>

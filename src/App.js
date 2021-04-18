@@ -1,13 +1,6 @@
 import "./App.css";
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-  //   Redirect,
-  //   Link,
-  //   useRouteMatch,
-} from "react-router-dom";
-// import Home from "./components/Home";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
@@ -15,7 +8,7 @@ import Resume from "./components/Resume";
 // import NavBar from "./components/NavBar";
 import MainInfo from "./components/MainInfo";
 import MainImage from "./components/MainImage";
-import JobInfoJson from "./components/JobInfoJson";
+// import JobInfoJson from "./components/JobInfoJson";
 
 function App() {
   return (
@@ -41,7 +34,8 @@ function App() {
 
               <Switch>
                 <Route path="/" exact={true}>
-                  <App />
+                  {/* <App /> */}
+                  <Home />
                 </Route>
 
                 <Route path="/about">
