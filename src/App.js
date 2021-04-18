@@ -8,24 +8,26 @@ import faker from "faker";
 function App() {
   let randomName = faker.name.findName();
   return (
-    <div className="img-overlay">
-      <div className="App container">
-        <NavBar />
+    <div className="homepage-section">
+      <div className="img-overlay">
+        <div className="App container">
+          <NavBar />
 
-        <div className="row mt-5">
-          <div className="col-md-6">
-            <MainInfo />
-          </div>
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <MainInfo />
+            </div>
 
-          <div className="col-md-2 "></div>
-          <div className="col-md-4 ">
-            <MainImage />
-          </div>
+            {/* <div className="col-md-2 "></div> */}
+            <div className="col-md-6 ">
+              <MainImage />
+            </div>
 
-          {/* put this on resume page */}
-          {/* <div className="col-md-4 ">
+            {/* put this on resume page */}
+            {/* <div className="col-md-4 ">
             <JobInfoJson />
           </div> */}
+          </div>
         </div>
       </div>
     </div>

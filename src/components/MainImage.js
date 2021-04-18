@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import cartoonMac from "../images/cartoon-me-macbook.PNG";
+import superHeroMe from "../images/superhero-me.PNG";
 
 class MainImage extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className="margin-auto text-center">
           <img
-            src={cartoonMac}
+            src={superHeroMe}
             alt="Photo of Gabriel Austin"
-            className="rounded-circle"
+            className="rounded-circle w-50"
           />
         </div>
 
-        <div className="mb-3" id="ownerDesc">
+        {/* <div className="mb-3" id="ownerDesc">
           <div>
             Web Developer at{" "}
             <span className="jobTitle">
@@ -32,7 +33,7 @@ class MainImage extends Component {
             <span className="specialText">|</span> Project Management{" "}
             <span className="specialText">|</span> Training/Teaching
           </div>
-        </div>
+        </div> */}
       </>
     );
   }
