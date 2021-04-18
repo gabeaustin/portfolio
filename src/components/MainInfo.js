@@ -35,19 +35,8 @@ class MainInfo extends Component {
           </div>
           {/* move this section to about or resume section */}
           <div className="d-grid gap-3 col-md-6 mx-auto">
-            <button
-              type="button"
-              class="btn btn-warning py-2 px-5"
-              id="btnDesktop"
-            >
-              My Projects - Desktop
-            </button>
-            <button
-              type="button"
-              class="btn btn-warning btn-lg py-2 px-5"
-              id="btnMobile"
-            >
-              My Projects - Mobile
+            <button type="button" class="btn btn-warning py-2 px-5">
+              My Projects
             </button>
           </div>
         </div>

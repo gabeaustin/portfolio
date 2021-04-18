@@ -14,12 +14,12 @@ function App() {
           <NavBar />
 
           <div className="row mt-5">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-6">
               <MainInfo />
             </div>
 
             {/* <div className="col-md-2 "></div> */}
-            <div className="col-md-6 ">
+            <div className="col-md-6 col-sm-6">
               <MainImage />
             </div>
 
