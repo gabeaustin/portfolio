@@ -91,6 +91,11 @@ body {
   white-space: nowrap;
 }
 
+.semiColonJobTitle {
+    /* letter-spacing: -1; */
+    font-size: 25px;
+}
+
 hr.mainPageMiddleHr {
   width: 25%;
   border: solid #ffc107;

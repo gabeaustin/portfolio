@@ -14,15 +14,16 @@ class MainImage extends Component {
           />
         </div>
 
-        {/* <div className="mb-3" id="ownerDesc">
+        <div className="mb-3 text-center" id="ownerDesc">
           <div>
-            Web Developer at{" "}
+            Meet Gabe Austin<br />
+            Future Web Developer &#64; <br />
             <span className="jobTitle">
               <span className="specialText">&#65371;</span> yourCompanyName{" "}
               <span className="specialText">&#65373;</span>
             </span>
           </div>
-          <hr className="mainPageMiddleHr" />
+          {/* <hr className="mainPageMiddleHr" />
           <div>
             HTML <span className="specialText">|</span> CSS{" "}
             <span className="specialText">|</span> JavaScript{" "}
@@ -32,8 +33,8 @@ class MainImage extends Component {
             <span className="specialText">|</span> Scrum{" "}
             <span className="specialText">|</span> Project Management{" "}
             <span className="specialText">|</span> Training/Teaching
-          </div>
-        </div> */}
+          </div> */}
+        </div>
       </>
     );
   }
