@@ -7,24 +7,24 @@ import {
   //   Link,
   //   useRouteMatch,
 } from "react-router-dom";
-import Home from "./components/Home";
+// import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import MainInfo from "./components/MainInfo";
 import MainImage from "./components/MainImage";
 import JobInfoJson from "./components/JobInfoJson";
-import faker from "faker";
 
 function App() {
-  let randomName = faker.name.findName();
   return (
     <>
       <div className="homepage-section">
         <div className="img-overlay">
           <div className="App container">
+            {/* <NavBar /> */}
+            {/* put nav bar here once fully tested */}
 
             <div className="row mt-5">
               <div className="col-md-6 col-sm-6">
@@ -35,11 +35,15 @@ function App() {
                 <MainImage />
               </div>
             </div>
-            
+
             <BrowserRouter>
-              <NavBar />
+              {/* <NavBar /> */}
 
               <Switch>
+                <Route path="/" exact={true}>
+                  <App />
+                </Route>
+
                 <Route path="/about">
                   <About />
                 </Route>
@@ -52,9 +56,9 @@ function App() {
                   <Resume />
                 </Route>
 
-                <Route path="/">
+                {/* <Route path="/">
                   <Home />
-                </Route>
+                </Route> */}
               </Switch>
             </BrowserRouter>
           </div>

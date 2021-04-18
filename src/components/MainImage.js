@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import cartoonMac from "../images/cartoon-me-macbook.PNG";
+// import cartoonMac from "../images/cartoon-me-macbook.PNG";
 import superHeroMe from "../images/superhero-me.PNG";
 
 class MainImage extends Component {
@@ -9,7 +9,7 @@ class MainImage extends Component {
         <div className="margin-auto text-center">
           <img
             src={superHeroMe}
-            alt="Photo of Gabriel Austin"
+            alt="Gabriel Austin"
             className="rounded-circle w-50"
           />
         </div>

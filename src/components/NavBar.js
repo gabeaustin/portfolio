@@ -1,7 +1,18 @@
 import React, { Component } from "react";
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  //   Redirect,
+  //   Link,
+  //   useRouteMatch,
+} from "react-router-dom";
 // import { Router, Route, Link } from "react-router";
-import { Link } from "react-router-dom";
-import About from "../components/About";
+// import { Link } from "react-router-dom";
+// import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 class NavBar extends Component {
   render() {
@@ -19,10 +30,10 @@ class NavBar extends Component {
             </a>
           </li>
           <li class="nav-item">
-            {/* <a href={About} class="nav-link NavBar-aboutBtn" id="navbarLink">
+            {/* <a href={About} class="nav-link NavBar-aboutBtn" id="navbarLink"> */}
+            <a class="nav-link NavBar-resumeBtn" id="navbarLink" href="#">
               About
-            </a> */}
-            <Link to="About">About</Link>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link NavBar-resumeBtn" id="navbarLink" href="#">
