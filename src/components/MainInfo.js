@@ -9,7 +9,7 @@ class MainInfo extends Component {
     return (
       <>
         <div className="container mb-3">
-          <div className="mb-2 ownerNameSmallCaps" id="ownerName">
+          <div className="mb-2" id="ownerName">
             GABRIEL AUSTIN
             <hr className="mainPageMiddleHr" />
           </div>{" "}
@@ -34,13 +34,20 @@ class MainInfo extends Component {
             Web Developer - Scrum Master - Project Manager */}
           </div>
           {/* move this section to about or resume section */}
-          <div className="d-grid gap-3 col-6 mx-auto">
+          <div className="d-grid gap-3 col-md-6 mx-auto">
+            <button
+              type="button"
+              class="btn btn-warning py-2 px-5"
+              id="btnDesktop"
+            >
+              My Projects - Desktop
+            </button>
             <button
               type="button"
               class="btn btn-warning btn-lg py-2 px-5"
-              id="btnNonMobile"
+              id="btnMobile"
             >
-              My Projects
+              My Projects - Mobile
             </button>
           </div>
         </div>

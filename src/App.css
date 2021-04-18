@@ -23,7 +23,11 @@ a:hover {
   color: #ffc107;
 }
 
-body {
+#navbarLink {
+  font-size: 18px;
+}
+
+/* body {
   position: absolute;
   height: 100%;
   margin: 0;
@@ -39,10 +43,6 @@ body {
   z-index: 0;
 }
 
-#navbarLink {
-  font-size: 18px;
-}
-
 .img-overlay {
   position: absolute;
   top: 0;
@@ -56,7 +56,7 @@ body {
   background-size: cover;
   background-color: rgba(36, 37, 38, 0.75);
   z-index: 99;
-}
+} */
 
 #ownerName {
   font-weight: 500;
@@ -117,12 +117,60 @@ hr.careerPathHr {
   opacity: 1;
 }
 
+#btnMobile {
+  display: none;
+}
+
 /* media queries */
 /* @media (min-width: 576px) { */
 /* @media (max-width: 767.98px) { */
-@media (max-width: 991.98px) {
+
+@media only screen {
+  body {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    background-color: #242526;
+    background-image: url(./images/homescreen-cover-img.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(36, 37, 38, 0.75);
+    z-index: 99;
+  }
+}
+@media (max-width: 576px) {
   body {
     background-color: #242526;
     background-image: none;
+  }
+
+  #ownerName {
+    color: #ffc107;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 37px;
+  }
+
+  #btnDesktop {
+    display: none;
   }
 }
