@@ -1,12 +1,13 @@
 import "./App.css";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Switch,
-  Redirect,
-  Link,
-  useRouteMatch,
+  //   Redirect,
+  //   Link,
+  //   useRouteMatch,
 } from "react-router-dom";
+import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
@@ -21,27 +22,44 @@ function App() {
   let randomName = faker.name.findName();
   return (
     <>
-      <div className="wrapper">
-        <h1>Gabriel A Austin</h1>
-      </div>
-      {/* <Router>
-        <Link to="/">Home</Link>
-        <Route path="/" component={Home} />
-      </Router>
       <div className="homepage-section">
         <div className="img-overlay">
           <div className="App container">
-            <NavBar />
 
             <div className="row mt-5">
               <div className="col-md-6 col-sm-6">
                 <MainInfo />
               </div>
 
-              {/* <div className="col-md-2 "></div> */}
-      {/* <div className="col-md-6 col-sm-6">
+              <div className="col-md-6 col-sm-6">
                 <MainImage />
-              </div> */}
+              </div>
+            </div>
+            
+            <BrowserRouter>
+              <NavBar />
+
+              <Switch>
+                <Route path="/about">
+                  <About />
+                </Route>
+
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+
+                <Route path="/resume">
+                  <Resume />
+                </Route>
+
+                <Route path="/">
+                  <Home />
+                </Route>
+              </Switch>
+            </BrowserRouter>
+          </div>
+        </div>
+      </div>
 
       {/* put this on resume page */}
       {/* <div className="col-md-4 ">

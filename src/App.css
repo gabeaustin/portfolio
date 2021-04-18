@@ -8,6 +8,11 @@
 #8899a6 - hr color (homepage)
 #f8f8f8 - text color */
 
+/* for testing */
+.wrapper {
+    padding: 20px;
+}
+
 .App {
   /* text-align: center; */
   font-family: "Raleway", sans-serif;
