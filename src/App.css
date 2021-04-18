@@ -92,8 +92,8 @@ body {
 }
 
 .semiColonJobTitle {
-    /* letter-spacing: -1; */
-    font-size: 25px;
+  /* letter-spacing: -1; */
+  font-size: 25px;
 }
 
 hr.mainPageMiddleHr {
@@ -125,5 +125,4 @@ hr.careerPathHr {
     background-color: #242526;
     background-image: none;
   }
-
 }

@@ -9,7 +9,7 @@ class MainInfo extends Component {
     return (
       <>
         <div className="container mb-3">
-          <div className="mb-2" id="ownerName">
+          <div className="mb-2 ownerNameSmallCaps" id="ownerName">
             GABRIEL AUSTIN
             <hr className="mainPageMiddleHr" />
           </div>{" "}

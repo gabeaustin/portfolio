@@ -16,7 +16,8 @@ class MainImage extends Component {
 
         <div className="mb-3 text-center" id="ownerDesc">
           <div>
-            Meet Gabe Austin<br />
+            Meet Gabe Austin
+            <br />
             Future Web Developer &#64; <br />
             <span className="jobTitle">
               <span className="specialText">&#65371;</span> yourCompanyName{" "}
