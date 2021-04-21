@@ -21,11 +21,13 @@ function App() {
 
             <div className="row mt-5">
               <div className="col-md-6 col-sm-6">
-                <MainInfo />
+                <MainInfo /> 
+                {/* Need to move from app cause it will show on all pages */}
               </div>
 
               <div className="col-md-6 col-sm-6">
-                <MainImage />
+                <MainImage /> 
+                {/* Need to move from app cause it will show on all pages */}
               </div>
             </div>
 
