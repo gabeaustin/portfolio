@@ -10,7 +10,7 @@
 
 /* for testing */
 .wrapper {
-    padding: 20px;
+  padding: 20px;
 }
 
 .App {
@@ -31,6 +31,11 @@ a:hover {
 
 #navbarLink {
   font-size: 18px;
+}
+
+#nav-bar-img {
+  width: 40px;
+  height: 40px;
 }
 
 body {
