@@ -50,7 +50,7 @@ class Resume extends Component {
             Developed applications using Ruby, HTML, CSS, Bootstrap, and
             JavaScript
           </li>
-        </ul>
+        </ul> 
       </div>
     );
   }
