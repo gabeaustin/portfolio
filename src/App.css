@@ -20,13 +20,28 @@
   font-weight: 200;
 }
 
+#nav-link-home:hover,
+#nav-link-about:hover,
+#nav-link-resume:hover,
+#nav-link-contact:hover {
+  /* color: #f8f8f8; */
+  color: #ffc107;
+}
+
+#navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
 a,
 a:visited {
   color: #f8f8f8;
 }
 
 a:hover {
-  color: #ffc107;
 }
 
 #navbarLink {
@@ -36,6 +51,12 @@ a:hover {
 #nav-bar-img {
   width: 40px;
   height: 40px;
+}
+
+#nav-container {
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 body {
