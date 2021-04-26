@@ -2,7 +2,6 @@ import "./App.css";
 import React, { Component } from "react";
 import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
-import cartoonMeMacbook from "./images/cartoon-me-macbook.PNG";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -12,7 +11,7 @@ class App extends Component {
       <>
         {/* put the navBar here  */}
         <nav
-          class="navbar navbar-expand-lg navbar-brand bg-transparent"
+          class="navbar navbar-expand-lg navbar-brand bg-transparent mb-3"
           id="main-navbar"
         >
           <div class="container-fluid transparent" id="nav-container">
@@ -73,7 +72,7 @@ class App extends Component {
         {/* start mainInfo section  */}
         <div className="row">
           <div className="col-md-6">
-            <div className="container mb-3">
+            <div className="container mb-3 mx-5">
               <div className="mb-2" id="ownerName">
                 GABRIEL AUSTIN
                 <hr className="mainPageMiddleHr" />
@@ -84,7 +83,7 @@ class App extends Component {
               </div>{" "}
               <br />
               <div id="ownerTitle">WEB DEVELOPER</div> <br />
-              <div className="mb-3" id="ownerDesc">
+              <div className="mb-3 homePageText ownerBioDesc">
                 <p>
                   I am an I.T. Professional with the{" "}
                   <span className="specialText">superpower</span> to communicate
@@ -93,7 +92,10 @@ class App extends Component {
               </div>
               {/* move this section to about or resume section */}
               <div className="d-grid gap-3 col-md-6 mx-auto">
-                <button type="button" class="btn btn-warning py-2 px-5">
+                <button
+                  type="button"
+                  class="btn btn-warning py-2 px-5 projectsButton"
+                >
                   My Projects
                 </button>
               </div>
@@ -111,7 +113,7 @@ class App extends Component {
               />
             </div>
 
-            <div className="mb-3 text-center" id="ownerDesc">
+            <div className="mb-3 text-center homePageText ownerDesc">
               <div>
                 Meet Gabe Austin
                 <br />

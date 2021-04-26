@@ -14,7 +14,6 @@
 }
 
 .App {
-  /* text-align: center; */
   font-family: "Raleway", sans-serif;
   color: #f8f8f8;
   font-weight: 200;
@@ -24,7 +23,6 @@
 #nav-link-about:hover,
 #nav-link-resume:hover,
 #nav-link-contact:hover {
-  /* color: #f8f8f8; */
   color: #ffc107;
 }
 
@@ -33,15 +31,12 @@
 }
 
 .navbar-brand {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 a,
 a:visited {
   color: #f8f8f8;
-}
-
-a:hover {
 }
 
 #navbarLink {
@@ -59,52 +54,42 @@ a:hover {
   bottom: 0;
 }
 
-body {
-  /* position: absolute;
-  height: 100%;
-  margin: 0; */
-  background-color: #3c4f3b;
-  /* background-image: url(./images/homescreen-cover-img.jpeg);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0; */
+.homePageText {
+  color: #f8f8f8;
 }
 
-/* .img-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  margin: 0;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(36, 37, 38, 0.75);
-  z-index: 99;
-} */
+body {
+  background-color: #3c4f3b;
+}
+
+.projectsButton {
+  color: #3c4f3b;
+}
+
+.projectsButton:hover {
+  color: #f8f8f8;
+}
 
 #ownerName {
   font-weight: 500;
-  line-height: 0.5;
-  font-size: 60px;
+  line-height: 1;
+  font-size: 72px;
 }
 
-#ownerDesc {
+.ownerDesc {
   font-weight: 200;
   font-size: 22px;
+}
+
+.ownerBioDesc {
+  font-weight: 200;
+  font-size: 32px;
 }
 
 #ownerNextLevel,
 #ownerTitle {
   font-weight: 200;
-  line-height: 0.3;
+  line-height: 0.5;
   font-size: 35px;
 }
 
@@ -124,16 +109,14 @@ body {
 }
 
 .semiColonJobTitle {
-  /* letter-spacing: -1; */
   font-size: 25px;
 }
 
 hr.mainPageMiddleHr {
   width: 25%;
   border: solid #ffc107;
-  border-width: 5px 0 0;
+  /* border-width: 5px 0 0; */
   clear: both;
-  /* margin: 5px 0 20px; */
   height: 0;
   opacity: 1;
 }
@@ -142,9 +125,8 @@ hr.mainPageMiddleHr {
 hr.careerPathHr {
   width: 11%;
   border: solid #ffc107;
-  border-width: 1px 0 0;
+  /* border-width: 1px 0 0; */
   clear: both;
-  /* margin: 5px 0 20px; */
   height: 0;
   opacity: 1;
 }
@@ -155,7 +137,6 @@ hr.careerPathHr {
 
 @media (max-width: 576px) {
   #ownerName {
-    color: #ffc107;
     font-weight: 500;
     line-height: 1;
     font-size: 37px;
