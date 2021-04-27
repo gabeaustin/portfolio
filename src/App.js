@@ -1,77 +1,91 @@
 import "./App.css";
 import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
 import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
     return (
       <>
         {/* put the navBar here  */}
-        <nav
-          class="navbar navbar-expand-lg navbar-brand bg-transparent mb-3"
-          id="main-navbar"
-        >
-          <div class="container-fluid transparent" id="nav-container">
-            <img
-              src={cartoonMePeace}
-              alt="Gabriel Austin"
-              className="rounded-circle w-50"
-              class="d-inline-block align-text-top "
-              id="nav-bar-img"
-            />
+        {/* end the navBar  */}
 
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#" id="nav-link-home">
-                    Home
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link-css" href="#" id="nav-link-about">
-                    About
-                  </a>
-                </li>
-                <li class="nav-item">
+        {/* Test Demo NavBar  */}
+        <header class="site-navbar site-navbar-target bg-white" role="banner">
+          <div class="container">
+            <div class="row align-items-center position-relative">
+              <div class="col-lg-4">
+                <nav
+                  class="site-navigation text-right ml-auto "
+                  role="navigation"
+                >
+                  <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                    <li class="active">
+                      <a href="index.html" class="nav-link">
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="project.html" class="nav-link">
+                        Projects
+                      </a>
+                    </li>
+                    <li>
+                      <a href="services.html" class="nav-link">
+                        Services
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-lg-4 text-center">
+                <div class="site-logo">
+                  <a href="index.html">Brand</a>
+                </div>
+                <div class="ml-auto toggle-button d-inline-block d-lg-none">
                   <a
-                    class="nav-link nav-link-css"
                     href="#"
-                    id="nav-link-resume"
+                    class="site-menu-toggle py-5 js-menu-toggle text-black active"
                   >
-                    Resume
+                    <span class="icon-menu h3 text-black"></span>
                   </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link nav-link-css"
-                    href="#"
-                    id="nav-link-contact"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <nav
+                  class="site-navigation text-left mr-auto "
+                  role="navigation"
+                >
+                  <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                    <li>
+                      <a href="about.html" class="nav-link">
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="blog.html" class="nav-link">
+                        Blog
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contact.html" class="nav-link">
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </div>
-        </nav>
-        {/* end the navBar  */}
+        </header>
+        {/* End Test Demo NavBar  */}
         {/* start mainInfo section  */}
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
             <div className="container mb-3 mx-5">
               <div className="mb-2" id="ownerName">
                 GABRIEL AUSTIN
@@ -91,7 +105,7 @@ class App extends Component {
                 </p>
               </div>
               {/* move this section to about or resume section */}
-              <div className="d-grid gap-3 col-md-6 mx-auto">
+              <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
                 <button
                   type="button"
                   class="btn btn-warning py-2 px-5 projectsButton"
@@ -103,7 +117,7 @@ class App extends Component {
             {/* end mainInfo section  */}
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
             {/* start mainImage section  */}
             <div className="margin-auto text-center">
               <img
@@ -123,6 +137,7 @@ class App extends Component {
                   <span className="specialText">&#65373;</span>
                 </span>
               </div>
+
               {/* <hr className="mainPageMiddleHr" />
           <div>
             HTML <span className="specialText">|</span> CSS{" "}
