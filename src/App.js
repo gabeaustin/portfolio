@@ -2,6 +2,9 @@ import "./App.css";
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
 
@@ -11,78 +14,13 @@ class App extends Component {
   render() {
     return (
       <>
-        {/* put the navBar here  */}
-        {/* end the navBar  */}
+      {/* start Navbar */}
+        {/* <Navbar /> */}
+        <FontAwesomeIcon icon={faHome} />
+        <FontAwesomeIcon icon={["fas", "code"]} />
+        <FontAwesomeIcon icon={["fal", "code"]} />
+      {/* end Navbar */}
 
-        {/* Test Demo NavBar  */}
-        <header class="site-navbar site-navbar-target bg-white" role="banner">
-          <div class="container">
-            <div class="row align-items-center position-relative">
-              <div class="col-lg-4">
-                <nav
-                  class="site-navigation text-right ml-auto "
-                  role="navigation"
-                >
-                  <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                    <li class="active">
-                      <a href="index.html" class="nav-link">
-                        Home
-                      </a>
-                    </li>
-                    <li>
-                      <a href="project.html" class="nav-link">
-                        Projects
-                      </a>
-                    </li>
-                    <li>
-                      <a href="services.html" class="nav-link">
-                        Services
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div class="col-lg-4 text-center">
-                <div class="site-logo">
-                  <a href="index.html">Brand</a>
-                </div>
-                <div class="ml-auto toggle-button d-inline-block d-lg-none">
-                  <a
-                    href="#"
-                    class="site-menu-toggle py-5 js-menu-toggle text-black active"
-                  >
-                    <span class="icon-menu h3 text-black"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <nav
-                  class="site-navigation text-left mr-auto "
-                  role="navigation"
-                >
-                  <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                    <li>
-                      <a href="about.html" class="nav-link">
-                        About
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog.html" class="nav-link">
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a href="contact.html" class="nav-link">
-                        Contact
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </header>
-        {/* End Test Demo NavBar  */}
         {/* start mainInfo section  */}
         <div className="row">
           <div className="col-md-6 col-sm-12">
