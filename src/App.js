@@ -12,9 +12,7 @@ class App extends Component {
   render() {
     return (
       <>
-        {/* start Navbar */}
         <Navbar />
-        {/* end Navbar */}
 
         {/* start mainInfo section  */}
         <div className="row">
@@ -85,9 +83,8 @@ class App extends Component {
             </div>
             {/* end mainImage section */}
           </div>
+          <Footer />
         </div>
-
-        <Footer />
       </>
     );
   }

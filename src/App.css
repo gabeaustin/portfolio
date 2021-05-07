@@ -28,13 +28,16 @@ a#nav-link-home:visited,
 a#nav-link-about:visited,
 a#nav-link-resume:visited,
 a#nav-link-projects:visited,
-a#nav-link-contact:visited,
-a#nav-link-home,
-a#nav-link-about,
-a#nav-link-resume,
-a#nav-link-projects,
-a#nav-link-contact {
-    color: #f8f8f8;
+a#nav-link-contact:visited {
+  color: #f8f8f8;
+}
+
+a#nav-link-home:link,
+a#nav-link-about:link,
+a#nav-link-resume:link,
+a#nav-link-projects:link,
+a#nav-link-contact:link {
+  color: #fff;
 }
 
 #nav-link-home,
@@ -120,8 +123,16 @@ hr.careerPathHr {
   opacity: 1;
 }
 
-/* media queries */
+.mainPageFooter {
+  background-color: #ffc107;
+}
 
+.mainPageFooterIcons {
+  font-size: 45px;
+  color: #f8f8f8;
+}
+
+/* media queries */
 @media (max-width: 576px) {
   #ownerName {
     font-weight: 500;
@@ -134,6 +145,10 @@ hr.careerPathHr {
     font-weight: 200;
     line-height: 0.9;
     font-size: 35px;
+  }
+
+  .mainPageFooterIcons {
+    font-size: 40px;
   }
 }
 

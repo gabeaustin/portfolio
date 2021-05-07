@@ -5,7 +5,7 @@ import cartoonMePeace from "../images/cartoon-me-peace.PNG";
 class Navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow sticky-top">
+      <nav class="navbar navbar-expand-lg bg-transparent shadow">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
