@@ -1,16 +1,20 @@
 import React, { Component } from "react";
-import { Router, Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter as Router, Link } from "react-router-dom";
 import superHeroMe from "../images/superhero-me.PNG";
 import cartoonMePeace from "../images/cartoon-me-peace.PNG";
+import App from "../App";
 import About from "../About";
+import Contact from "../Contact";
+import Projects from "../Projects";
+import Resume from "../Resume";
 
 class Navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg bg-transparent shadow">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-transparent shadow">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -18,39 +22,55 @@ class Navbar extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
-              <li class="nav-item">
-                <a class="nav-link px-4" href="#" id="nav-link-home">
+
+          <Router>
+            <Route exact path="/" component={App} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/resume" component={Resume} />
+          </Router>
+
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+              <li className="nav-item">
+                <Link to="/" className="nav-link px-4" id="nav-link-home">
                   Home
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link px-4"
-                  href="#"
-                  id="nav-link-about"
-                  path="/about"
-                >
+              <li className="nav-item">
+                <Link to="/about" className="nav-link px-4" id="nav-link-about">
                   About
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link px-4" href="#" id="nav-link-resume">
+              <li className="nav-item">
+                <Link
+                  to="/resume"
+                  className="nav-link px-4"
+                  id="nav-link-resume"
+                >
                   Resume
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link px-4" href="#" id="nav-link-projects">
+              <li className="nav-item">
+                <Link
+                  to="/projects"
+                  className="nav-link px-4"
+                  id="nav-link-projects"
+                >
                   Projects
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link px-4" href="#" id="nav-link-contact">
+              <li className="nav-item">
+                <Link
+                  to="/contact"
+                  className="nav-link px-4"
+                  id="nav-link-contact"
+                >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
