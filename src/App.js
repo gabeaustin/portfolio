@@ -83,8 +83,8 @@ class App extends Component {
             </div>
             {/* end mainImage section */}
           </div>
-          <Footer />
         </div>
+        <Footer />
       </>
     );
   }
