@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { Router, Route, Switch, BrowserRouter } from "react-router-dom";
 import superHeroMe from "../images/superhero-me.PNG";
 import cartoonMePeace from "../images/cartoon-me-peace.PNG";
+import About from "../About";
 
 class Navbar extends Component {
   render() {
@@ -26,7 +28,12 @@ class Navbar extends Component {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4" href="#" id="nav-link-about">
+                <a
+                  class="nav-link px-4"
+                  href="#"
+                  id="nav-link-about"
+                  path="/about"
+                >
                   About
                 </a>
               </li>
