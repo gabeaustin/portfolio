@@ -8,10 +8,6 @@
 #8899a6 - hr color (homepage)
 #f8f8f8 - text color */
 
-/* for testing */
-.wrapper {
-  padding: 20px;
-}
 
 .App {
   font-family: "Raleway", sans-serif;
@@ -112,15 +108,9 @@ body {
   font-size: 25px;
 }
 
-#main-navbar {
-  /* padding: 4px;
-    margin: 4px; */
-}
-
 hr.mainPageMiddleHr {
   width: 25%;
   border: solid #ffc107;
-  /* border-width: 5px 0 0; */
   clear: both;
   height: 0;
   opacity: 1;
@@ -130,15 +120,12 @@ hr.mainPageMiddleHr {
 hr.careerPathHr {
   width: 11%;
   border: solid #ffc107;
-  /* border-width: 1px 0 0; */
   clear: both;
   height: 0;
   opacity: 1;
 }
 
 /* media queries */
-/* @media (min-width: 576px) { */
-/* @media (max-width: 767.98px) { */
 
 @media (max-width: 576px) {
   #ownerName {
@@ -146,5 +133,17 @@ hr.careerPathHr {
     line-height: 1;
     font-size: 37px;
   }
+
+  #ownerNextLevel,
+  #ownerTitle {
+    font-weight: 200;
+    line-height: 0.9;
+    font-size: 35px;
+  }
 }
 
+@media (min-width: 576.1px) {
+  #ownerNameContainer {
+    margin-left: 1em;
+  }
+}

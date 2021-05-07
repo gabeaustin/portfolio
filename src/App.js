@@ -13,13 +13,12 @@ class App extends Component {
       <>
         {/* start Navbar */}
         <Navbar />
-
         {/* end Navbar */}
 
         {/* start mainInfo section  */}
         <div className="row">
           <div className="col-md-6 col-sm-12">
-            <div className="container mb-3 mx-5">
+            <div className="container my-3" id="ownerNameContainer">
               <div className="mb-2" id="ownerName">
                 GABRIEL AUSTIN
                 <hr className="mainPageMiddleHr" />
@@ -50,7 +49,7 @@ class App extends Component {
             {/* end mainInfo section  */}
           </div>
 
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 my-3" id="mainImageContainer">
             {/* start mainImage section  */}
             <div className="margin-auto text-center">
               <img
