@@ -6,6 +6,7 @@ import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         {/* start mainInfo section  */}
         <div className="row">
           <div className="col-md-6 col-sm-12">
-            <div className="container my-3" id="ownerNameContainer">
+            <div className="container my-4" id="ownerNameContainer">
               <div className="mb-2" id="ownerName">
                 GABRIEL AUSTIN
                 <hr className="mainPageMiddleHr" />
@@ -49,7 +50,7 @@ class App extends Component {
             {/* end mainInfo section  */}
           </div>
 
-          <div className="col-md-6 col-sm-12 my-3" id="mainImageContainer">
+          <div className="col-md-6 col-sm-12 my-4" id="mainImageContainer">
             {/* start mainImage section  */}
             <div className="margin-auto text-center">
               <img
@@ -85,7 +86,8 @@ class App extends Component {
             {/* end mainImage section */}
           </div>
         </div>
-        {/* end the row on line 75 */}
+
+        <Footer />
       </>
     );
   }

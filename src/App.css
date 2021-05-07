@@ -8,46 +8,41 @@
 #8899a6 - hr color (homepage)
 #f8f8f8 - text color */
 
-
 .App {
   font-family: "Raleway", sans-serif;
   color: #f8f8f8;
   font-weight: 200;
 }
 
-#nav-link-home:hover,
-#nav-link-about:hover,
-#nav-link-resume:hover,
-#nav-link-contact:hover {
+a#nav-link-home:hover,
+a#nav-link-about:hover,
+a#nav-link-resume:hover,
+a#nav-link-projects:hover,
+a#nav-link-contact:hover,
+a:hover {
   color: #ffc107;
+  border-bottom: 4px solid #ffc107;
 }
 
-#navbar {
-  background-color: transparent;
+a#nav-link-home:visited,
+a#nav-link-about:visited,
+a#nav-link-resume:visited,
+a#nav-link-projects:visited,
+a#nav-link-contact:visited,
+a#nav-link-home,
+a#nav-link-about,
+a#nav-link-resume,
+a#nav-link-projects,
+a#nav-link-contact {
+    color: #f8f8f8;
 }
 
-.navbar-brand {
-  margin-right: 0;
-}
-
-a,
-a:visited {
-  color: #f8f8f8;
-}
-
-#navbarLink {
-  font-size: 18px;
-}
-
-#nav-bar-img {
-  width: 40px;
-  height: 40px;
-}
-
-#nav-container {
-  right: 0;
-  top: 0;
-  bottom: 0;
+#nav-link-home,
+#nav-link-about,
+#nav-link-resume,
+#nav-link-projects,
+#nav-link-contact {
+  font-size: 20px;
 }
 
 .homePageText {
