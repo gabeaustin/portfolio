@@ -2,9 +2,6 @@ import "./App.css";
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
 
@@ -14,12 +11,10 @@ class App extends Component {
   render() {
     return (
       <>
-      {/* start Navbar */}
-        {/* <Navbar /> */}
-        <FontAwesomeIcon icon={faHome} />
-        <FontAwesomeIcon icon={["fas", "code"]} />
-        <FontAwesomeIcon icon={["fal", "code"]} />
-      {/* end Navbar */}
+        {/* start Navbar */}
+        <Navbar />
+
+        {/* end Navbar */}
 
         {/* start mainInfo section  */}
         <div className="row">
