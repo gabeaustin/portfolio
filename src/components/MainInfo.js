@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import Button from "./Button";
 
 class MainInfo extends Component {
   render() {
@@ -24,16 +26,19 @@ class MainInfo extends Component {
               </p>
             </div>
             <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
-              <button
+              {/* <button
                 type="button"
                 class="btn btn-warning py-2 px-5 projectsButton"
                 onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href="/projects";
+                  e.preventDefault();
+                  window.location.href = "/projects";
                 }}
-              >
-                My Projects
-              </button>
+              > */}
+
+              <Button>Hire Now</Button>
+
+              {/* My Projects */}
+              {/* </button> */}
             </div>
           </div>
         </div>
