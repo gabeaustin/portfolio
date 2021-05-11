@@ -27,6 +27,10 @@ class MainInfo extends Component {
               <button
                 type="button"
                 class="btn btn-warning py-2 px-5 projectsButton"
+                onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href="/projects";
+                }}
               >
                 My Projects
               </button>

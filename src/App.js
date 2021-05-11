@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
-import { Route, BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
@@ -15,12 +15,10 @@ class App extends Component {
     return (
       <>
         <Navbar />
-
         <div className="row">
           <MainInfo />
           <MainImage />
         </div>
-
         <Footer />
       </>
     );
