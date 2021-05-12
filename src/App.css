@@ -138,9 +138,6 @@ img {
   height: auto;
 }
 
-.justMyLuck {
-}
-
 /* media queries */
 @media (max-width: 576px) {
   #ownerName {

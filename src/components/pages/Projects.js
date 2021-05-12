@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import justMyLuckImg from "../../images/just-my-luck-screenshot.jpg";
+import countdownTimer from "../../images/countdown-timer-screenshot.jpg";
 
 const Projects = () => {
   return (
@@ -12,10 +13,16 @@ const Projects = () => {
         <div className="flex flex-wrap items-center col-md-4">
           <img
             src={justMyLuckImg}
-            className="rounded float-start thumbnail img-responsive justMyLuck"
+            className="rounded float-start thumbnail img-responsive"
             alt="Just My Luck Game Web Page"
           />
-          <img src="..." className="rounded float-end" alt="..." />
+        </div>
+        <div className="flex flex-wrap items-center col-md-4">
+          <img
+            src={countdownTimer}
+            className="rounded float-start thumbnail img-responsive"
+            alt="Countdown Timer Web Page"
+          />
         </div>
       </div>
     </div>
