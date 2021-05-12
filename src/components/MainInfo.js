@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+// import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import Projects from "./pages/Projects";
+import Projects from "../components/pages/Projects";
 
 const MainInfo = () => {
   return (
@@ -29,18 +30,15 @@ const MainInfo = () => {
           <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
             {/* <Link to="/projects">Projects</Link> */}
             {/* <button
-                type="button"
-                class="btn btn-warning py-2 px-5 projectsButton"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = "/projects";
-                }}
-              > */}
-
-            {/* <Button>Hi</Button> */}
-
-            {/* My Projects */}
-            {/* </button> */}
+              type="button"
+              class="btn btn-warning py-2 px-5 projectsButton"
+              path="/projects"
+              component={Projects}
+            >
+              My Projects
+            </button> */}
+            {/* <Link exact to="/projects" component={Projects}> */}
+            <Link to="/projects">My Projects</Link>
           </div>
         </div>
       </div>
