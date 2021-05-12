@@ -1,20 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 
-class About extends Component {
-  render() {
-    return (
-      <div>
-        <h1 className="title is-1">This is the About Page</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
-          risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan
-          eros nulla interdum justo. Pellentesque dignissim, sapien et congue
-          rutrum, lorem tortor dapibus turpis, sit amet vestibulum eros mi et
-          odio.
-        </p>
-      </div>
-    );
-  }
-}
+const About = () => {
+  return (
+    <div>
+      <h1 className="title is-1">This is the About Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
+        risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan
+        eros nulla interdum justo. Pellentesque dignissim, sapien et congue
+        rutrum, lorem tortor dapibus turpis, sit amet vestibulum eros mi et
+        odio.
+      </p>
+    </div>
+  );
+};
 
 export default About;

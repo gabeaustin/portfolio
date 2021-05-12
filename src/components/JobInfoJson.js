@@ -1,13 +1,9 @@
-import React, { Component } from "react";
-// import faker from "faker";
+import React from "react";
 
-class JobInfoJson extends Component {
-    render() {
-        // let randomArrays = faker.random.arrayElements();
-
-        return (
-            <div>
-                <div>{`
+const JobInfoJson = () => {
+  return (
+    <div>
+      <div>{`
                     {
                         "author": "Gabriel Austin",
                         "city": "Birmingham",
@@ -25,9 +21,8 @@ class JobInfoJson extends Component {
                         ]
                     }
                 `}</div>
-            </div>
-        )
-    }
-}
+    </div>
+  );
+};
 
 export default JobInfoJson;

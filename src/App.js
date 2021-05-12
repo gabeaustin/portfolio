@@ -1,55 +1,40 @@
-import "./App.css";
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "../src/App.css";
 
 import superHeroMe from "./images/superhero-me.PNG";
 import cartoonMePeace from "./images/cartoon-me-peace.PNG";
 
-import AboutTest from "./components/pages/AboutTest";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
+import Resume from "./components/pages/Resume";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import MainInfo from "./components/MainInfo";
 import MainImage from "./components/MainImage";
 
-class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <Navbar />
-        <Route
-          exact
-          path="/"
-          render={(props) => (
-            <div>
-              <p>
-                Vivamus nec nibh quam. Suspendisse potenti. Aenean porttitor
-                quis enim a sagittis. Donec at cursus nisl, ac sollicitudin
-                mauris. Class aptent taciti sociosqu ad litora torquent per
-                conubia nostra, per inceptos himenaeos. In commodo, ante id
-                euismod lacinia, libero ipsum efficitur lectus, eu fringilla sem
-                elit et tellus. Mauris tincidunt malesuada justo ac laoreet.
-                Pellentesque euismod suscipit mauris. Fusce lobortis suscipit
-                bibendum. Phasellus porta iaculis mi, vel suscipit enim faucibus
-                ut. Sed tristique tincidunt elementum. Donec consequat est
-                viverra orci fermentum, vel pharetra nisl scelerisque.
-              </p>
-            </div>
-          )}
-        />
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Navbar />
 
-        <Route path="/abouttest" component={AboutTest} />
-        <Route path="/projects" component={Projects} />
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/resume" component={Resume} />
 
-        <div className="row">
+      {/* <div className="row">
           <MainInfo />
           <MainImage />
-        </div>
-        <Footer />
-      </BrowserRouter>
-    );
-  }
-}
+        </div> */}
+
+      <Footer />
+    </BrowserRouter>
+  );
+};
 
 export default App;
