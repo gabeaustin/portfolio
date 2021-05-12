@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Button from "./Button";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+
+import Projects from "./pages/Projects";
 
 class MainInfo extends Component {
   render() {
@@ -26,6 +28,7 @@ class MainInfo extends Component {
               </p>
             </div>
             <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
+              {/* <Link to="/projects">Projects</Link> */}
               {/* <button
                 type="button"
                 class="btn btn-warning py-2 px-5 projectsButton"
@@ -35,7 +38,7 @@ class MainInfo extends Component {
                 }}
               > */}
 
-              <Button>Hire Now</Button>
+              {/* <Button>Hi</Button> */}
 
               {/* My Projects */}
               {/* </button> */}
