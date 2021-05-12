@@ -132,6 +132,15 @@ hr.careerPathHr {
   color: #f8f8f8;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.justMyLuck {
+}
+
 /* media queries */
 @media (max-width: 576px) {
   #ownerName {
