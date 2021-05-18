@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+
 import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
 
 import Projects from "../components/pages/Projects";
 
@@ -38,7 +39,14 @@ const MainInfo = () => {
               My Projects
             </button> */}
             {/* <Link exact to="/projects" component={Projects}> */}
-            <Link to="/projects">My Projects</Link>
+            <Link to="/projects">
+              {/* My Projects</Link> */}
+
+              {/* <Link to="/account"> */}
+              <Button color="warning" className="is-rounded">
+                <span>My Projects</span>
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
