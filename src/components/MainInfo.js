@@ -29,7 +29,7 @@ const MainInfo = () => {
           <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
             {/* uncomment /projects once projects page is completed  */}
             {/* <Link exact to="/projects"> */}
-            <Link exact to="/comingsoon">
+            <Link to="/comingsoon">
               <Button color="warning" className="is-rounded">
                 <span>My Projects</span>
               </Button>

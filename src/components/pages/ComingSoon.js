@@ -1,8 +1,7 @@
-import "../../App.css";
+import React from "react";
 import "../../ComingSoon.css";
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-function ComingSoon() {
+const ComingSoon = () => {
   return (
     <div className="comingSoonContainer">
       <div className="container col-md-12">
@@ -20,6 +19,6 @@ function ComingSoon() {
       </div>
     </div>
   );
-}
+};
 
 export default ComingSoon;
