@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
-import Projects from "../components/pages/Projects";
+// import Projects from "../components/pages/Projects";
 
 const MainInfo = () => {
   return (
@@ -29,20 +29,9 @@ const MainInfo = () => {
             </p>
           </div>
           <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
-            {/* <Link to="/projects">Projects</Link> */}
-            {/* <button
-              type="button"
-              class="btn btn-warning py-2 px-5 projectsButton"
-              path="/projects"
-              component={Projects}
-            >
-              My Projects
-            </button> */}
-            {/* <Link exact to="/projects" component={Projects}> */}
-            <Link to="/projects">
-              {/* My Projects</Link> */}
-
-              {/* <Link to="/account"> */}
+            {/* uncomment /projects once projects page is completed  */}
+            {/* <Link exact to="/projects"> */}
+            <Link exact to="/comingsoon">
               <Button color="warning" className="is-rounded">
                 <span>My Projects</span>
               </Button>

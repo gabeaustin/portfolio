@@ -1,0 +1,82 @@
+.comingSoonContainer {
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+}
+
+.mainPageDiv {
+  font-size: 68px;
+  margin-top: 2em;
+}
+
+.mainPageFooter {
+  background-color: #ffaf00;
+  font-size: 30px;
+}
+
+.mainPageFooterIcons {
+  font-size: 40px;
+}
+
+/* Start Terminal Colors */
+.white {
+  color: #fff;
+}
+.blue {
+  color: #87afff;
+}
+.green {
+  color: #00d700;
+}
+.yellow {
+  color: #ffd700;
+}
+.orange {
+  color: #ffaf00;
+}
+.grey {
+  color: #eee;
+}
+.black {
+  color: #444;
+}
+/* End Terminal Colors */
+
+/* Start Media Queries */
+@media (min-width: 0) {
+  .mainPageDiv {
+    font-size: 28px;
+  }
+
+  .mainPageDiv {
+    margin-top: 2.5em;
+  }
+}
+
+@media (min-width: 576px) {
+  .mainPageDiv {
+    font-size: 38px;
+  }
+
+  .mainPageDiv {
+    margin-top: 2.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainPageDiv {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainPageDiv {
+    font-size: 58px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .mainPageDiv {
+    font-size: 68px;
+  }
+}
+/* End Media Queries */

@@ -7,6 +7,7 @@ import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
 import Resume from "./components/pages/Resume";
+import ComingSoon from "./components/pages/ComingSoon";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="/contact" component={Contact} />
       <Route path="/projects" component={Projects} />
       <Route path="/resume" component={Resume} />
+      <Route path="/comingsoon" component={ComingSoon} />
 
       <Footer />
     </BrowserRouter>
