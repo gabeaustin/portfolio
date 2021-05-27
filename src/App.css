@@ -14,15 +14,17 @@
   font-weight: 200;
 }
 
+/* this needs work - want border btm when user hovers links */
+/*
 a#nav-link-home:hover,
 a#nav-link-about:hover,
 a#nav-link-resume:hover,
 a#nav-link-projects:hover,
-a#nav-link-contact:hover,
-a:hover {
+a#nav-link-contact:hover {
   color: #ffc107;
   border-bottom: 4px solid #ffc107;
 }
+*/
 
 a#nav-link-home:visited,
 a#nav-link-about:visited,
