@@ -4,8 +4,6 @@ import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
-// import Projects from "../components/pages/Projects";
-
 const MainInfo = () => {
   return (
     <>
