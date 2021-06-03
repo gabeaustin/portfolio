@@ -27,15 +27,13 @@ const MainInfo = () => {
           </div>
           <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
             <BrowserRouter>
-              <Switch>
-                {/* uncomment /projects once projects page is completed  */}
-                {/* <Link exact to="/projects"> */}
-                <Link to="/comingsoon">
-                  <Button color="warning" className="is-rounded">
-                    <span>My Projects</span>
-                  </Button>
-                </Link>
-              </Switch>
+              {/* uncomment /projects once projects page is completed  */}
+              {/* <Link exact to="/projects"> */}
+              <Link to="/comingsoon">
+                <Button color="warning" className="is-rounded">
+                  <span>My Projects</span>
+                </Button>
+              </Link>
             </BrowserRouter>
           </div>
         </div>

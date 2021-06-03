@@ -21,6 +21,10 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+
           <Route path="/about">
             <About />
           </Route>
@@ -37,10 +41,6 @@ const App = () => {
 
           <Route path="/comingsoon">
             <ComingSoon />
-          </Route>
-
-          <Route exact path="/">
-            <Home />
           </Route>
         </Switch>
         <Footer />
