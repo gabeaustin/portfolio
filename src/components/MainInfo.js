@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-import { Link } from "react-router-dom";
+import { BrowserRouter, Link, Switch } from "react-router-dom";
 import { Button } from "reactstrap";
 
 const MainInfo = () => {
@@ -27,13 +26,17 @@ const MainInfo = () => {
             </p>
           </div>
           <div className="d-grid gap-3 col-md-6 col-sm-12 mx-auto">
-            {/* uncomment /projects once projects page is completed  */}
-            {/* <Link exact to="/projects"> */}
-            <Link to="/comingsoon">
-              <Button color="warning" className="is-rounded">
-                <span>My Projects</span>
-              </Button>
-            </Link>
+            <BrowserRouter>
+              <Switch>
+                {/* uncomment /projects once projects page is completed  */}
+                {/* <Link exact to="/projects"> */}
+                <Link to="/comingsoon">
+                  <Button color="warning" className="is-rounded">
+                    <span>My Projects</span>
+                  </Button>
+                </Link>
+              </Switch>
+            </BrowserRouter>
           </div>
         </div>
       </div>
