@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
 const MainInfo = () => {

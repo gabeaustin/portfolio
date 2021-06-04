@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -10,6 +11,18 @@ const Contact = () => {
         et ultrices posuere cubilia curae; Duis consequat nulla ac ex consequat,
         in efficitur arcu congue. Nam fermentum commodo egestas.
       </p>
+
+      <div>
+        <BrowserRouter>
+          <Route>
+            <Switch>
+              <h3>
+                Return to <Link to="/">Home</Link>
+              </h3>
+            </Switch>
+          </Route>
+        </BrowserRouter>
+      </div>
     </div>
   );
 };
