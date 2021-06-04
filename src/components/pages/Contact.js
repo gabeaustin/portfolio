@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
 
 const Contact = () => {
   return (
@@ -12,16 +13,12 @@ const Contact = () => {
         in efficitur arcu congue. Nam fermentum commodo egestas.
       </p>
 
-      <div>
-        <BrowserRouter>
-          <Route>
-            <Switch>
-              <h3>
-                Return to <Link to="/">Home</Link>
-              </h3>
-            </Switch>
-          </Route>
-        </BrowserRouter>
+      <div className="d-grid col-md-6 col-sm-12 mx-auto text-center mt-5">
+        <Link to="/">
+          <Button color="warning" className="is-rounded">
+            <span>Home</span>
+          </Button>
+        </Link>
       </div>
     </div>
   );

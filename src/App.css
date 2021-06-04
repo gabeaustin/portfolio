@@ -26,21 +26,21 @@ a#nav-link-contact:hover {
 }
 */
 
-a#nav-link-home:visited,
+/* a#nav-link-home:visited,
 a#nav-link-about:visited,
 a#nav-link-resume:visited,
 a#nav-link-projects:visited,
 a#nav-link-contact:visited {
   color: #f8f8f8;
-}
+} */
 
-a#nav-link-home:link,
+/* a#nav-link-home:link,
 a#nav-link-about:link,
 a#nav-link-resume:link,
 a#nav-link-projects:link,
 a#nav-link-contact:link {
   color: #fff;
-}
+} */
 
 #nav-link-home,
 #nav-link-about,

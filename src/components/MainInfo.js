@@ -1,11 +1,11 @@
 import React from "react";
 
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter, Router, Link, Switch } from "react-router-dom";
 import { Button } from "reactstrap";
 
 const MainInfo = () => {
   return (
-    <>
+    <div>
       <div className="col-md-6 col-sm-12">
         <div className="container my-4" id="ownerNameContainer">
           <div className="mb-2" id="ownerName">
@@ -28,20 +28,29 @@ const MainInfo = () => {
           <div className="d-grid gap-5 col-md-6 col-sm-12 mx-auto d-flex">
             {/* uncomment /projects once projects page is completed  */}
             {/* <Link exact to="/projects"> */}
-            <Link to="/comingsoon">
-              <Button color="warning" className="is-rounded">
-                <span>My Projects</span>
-              </Button>
-            </Link>
-            <Link to="/contact">
-              <Button color="warning" className="is-rounded">
-                <span>Contact Me</span>
-              </Button>
-            </Link>
+            
+              <Link to="comingsoon">
+                <Button color="warning" className="is-rounded">
+                  <span>My Projects</span>
+                </Button>
+              </Link>
+            
+            {/* <Router>
+              <Link to="/comingsoon">
+                <Button color="warning" className="is-rounded">
+                  <span>My Projects</span>
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button color="warning" className="is-rounded">
+                  <span>Contact Me</span>
+                </Button>
+              </Link>
+            </Router> */}
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

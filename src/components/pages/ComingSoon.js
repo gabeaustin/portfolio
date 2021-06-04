@@ -1,6 +1,9 @@
 import React from "react";
 import "../../ComingSoon.css";
 
+import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
+
 const ComingSoon = () => {
   return (
     <div className="comingSoonContainer">
@@ -16,6 +19,14 @@ const ComingSoon = () => {
           <span className="green">"gabeAustin"</span>
           <span className="grey">;</span>
         </div>
+      </div>
+
+      <div className="d-grid col-md-6 col-sm-12 mx-auto text-center mt-5">
+        <Link to="/">
+          <Button color="warning" className="is-rounded">
+            <span>Home</span>
+          </Button>
+        </Link>
       </div>
     </div>
   );

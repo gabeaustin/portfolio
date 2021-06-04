@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="text-center">
+    <div className="text-center mt-5">
       <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
         <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
           <FaLinkedin className="mainPageFooterIcons mx-4" />

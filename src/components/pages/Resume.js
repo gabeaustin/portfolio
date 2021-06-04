@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="mb-3">
       {/* Resume Header  */}
       <h1>GABRIEL AUSTIN</h1>
       <h3>McCalla, AL 35111</h3>

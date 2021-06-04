@@ -1,15 +1,16 @@
 import React from "react";
 import "../src/App.css";
 
-import Navbar from "./components/Navbar";
+import Home from "./components/pages/Home";
+// import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
-      <Navbar />
+    <div>
+        
       <Footer />
-    </>
+    </div>
   );
 };
 
