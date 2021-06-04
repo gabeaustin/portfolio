@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 import About from "../components/pages/About";
 import Contact from "../components/pages/Contact";
@@ -10,7 +10,7 @@ import ComingSoon from "../components/pages/ComingSoon";
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link to="/comingsoon">Projects</Link>
         <Link to="/resume">Resume</Link>
       </BrowserRouter>
-    </div>
+    </>
   );
 };
 
