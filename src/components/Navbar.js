@@ -1,13 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Home from "../components/Home";
-import Projects from "../components/Projects";
-import Resume from "../components/Resume";
-import ComingSoon from "../components/ComingSoon";
-
 const Navbar = () => {
   return (
     <div>
@@ -29,13 +22,9 @@ const Navbar = () => {
             myBoyGabe
           </Link>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/about">About</Link>
-          </li>
-
-          <li className="nav-item">
-            <Link to="/contact">Contact</Link>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <Link to="/comingsoon">Projects</Link>
@@ -43,10 +32,13 @@ const Navbar = () => {
 
           {/* uncomment /projects once projects page is completed  */}
           {/* <Link to="/projects">Projects</Link> */}
-
           <li className="nav-item">
-            <Link to="/resume">Resume</Link>
+            <Link to="/contact">Contact</Link>
           </li>
+
+          {/* <li className="nav-item">
+            <Link to="/resume">Resume</Link>
+          </li> */}
         </ul>
       </nav>
     </div>

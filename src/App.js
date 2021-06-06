@@ -9,12 +9,13 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <div>
         <Switch>
           <Route exact path="/">
