@@ -4,25 +4,23 @@ import superHeroMe from "../images/superhero-me.PNG";
 const MainImage = () => {
   return (
     <>
-      <div className="col-md-6 col-sm-12 my-4" id="mainImageContainer">
-        <div className="margin-auto text-center">
-          <img
-            src={superHeroMe}
-            alt="Gabriel Austin"
-            className="rounded-circle w-50"
-          />
-        </div>
+      <div>
+        <img
+          src={superHeroMe}
+          alt="Gabriel Austin"
+          className="rounded-circle w-50 m-auto p-4"
+        />
+      </div>
 
-        <div className="mb-3 text-center homePageText ownerDesc">
-          <div>
-            Meet Gabe Austin
-            <br />
-            Future Web Developer &#64; <br />
-            <span className="jobTitle">
-              <span className="specialText">&#65371;</span> yourCompanyName{" "}
-              <span className="specialText">&#65373;</span>
-            </span>
-          </div>
+      <div className="my-3 text-center homePageText ownerDesc">
+        <div>
+          Meet Gabe Austin
+          <br />
+          Future Web Developer &#64; <br />
+          <span className="jobTitle">
+            <span className="specialText">&#65371;</span> yourCompanyName{" "}
+            <span className="specialText">&#65373;</span>
+          </span>
         </div>
       </div>
     </>

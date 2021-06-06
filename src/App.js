@@ -15,7 +15,8 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
+      {/* Add Navbar back when I have all the links working */}
+      {/* <Navbar /> */}
       <div>
         <Switch>
           <Route exact path="/">

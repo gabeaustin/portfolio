@@ -7,8 +7,12 @@ import MainImage from "./MainImage";
 const HomePage = () => {
   return (
     <div className="row">
-      <MainInfo />
-      <MainImage />
+      <div className="col-md-6 col-sm-12">
+        <MainInfo />
+      </div>
+      <div className="col-md-6 col-sm-12" id="mainImageContainer">
+        <MainImage />
+      </div>
     </div>
   );
 };
