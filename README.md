@@ -9,26 +9,28 @@
 :heavy_check_mark:&nbsp;&nbsp; Node Package Manager (NPM) <br />
 :heavy_check_mark:&nbsp;&nbsp; Font Awesome <br />
 
-
 ## To Do
+
 ---
+
 - [x] Fix text color - navbar
 - [x] Break `App.js` into Components
+- [ ] **Add Font Awesome mail icon and link to my email address**
+- [ ] **Code Contact page to look similar to Coming Soon page**
 - [ ] Link the navbar items to each page
 - [ ] Code the About page
 - [ ] Code the Resume page
 - [ ] Code the Projects page
-- [ ] Code the Contact page
 - [ ] Create downloadable PDF of resume
 - [ ] Create Resume Scan with QR Code - need to add additional page
 
-
 ## Bug(s)
+
 ---
 
 ## Feature(s)
----
 
+---
 
 <br/>
 <br/>
