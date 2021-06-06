@@ -1,5 +1,6 @@
 {
   "name": "gabes_portfolio",
+  "homepage": "http://www.myboygabe.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
