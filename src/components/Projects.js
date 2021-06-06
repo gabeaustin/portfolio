@@ -1,7 +1,8 @@
 import React from "react";
-import "../../App.css";
-import justMyLuckImg from "../../images/just-my-luck-screenshot.jpg";
-import countdownTimer from "../../images/countdown-timer-screenshot.jpg";
+import "../App.css";
+
+import justMyLuckImg from "../images/just-my-luck-screenshot.jpg";
+import countdownTimer from "../images/countdown-timer-screenshot.jpg";
 
 const Projects = () => {
   return (

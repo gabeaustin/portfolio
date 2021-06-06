@@ -1,5 +1,5 @@
 import React from "react";
-import "../../ComingSoon.css";
+import "../ComingSoon.css";
 
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter, Router, Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
 const MainInfo = () => {
@@ -28,13 +28,13 @@ const MainInfo = () => {
           <div className="d-grid gap-5 col-md-6 col-sm-12 mx-auto d-flex">
             {/* uncomment /projects once projects page is completed  */}
             {/* <Link exact to="/projects"> */}
-            
-              <Link to="comingsoon">
-                <Button color="warning" className="is-rounded">
-                  <span>My Projects</span>
-                </Button>
-              </Link>
-            
+
+            <Link to="comingsoon">
+              <Button color="warning" className="is-rounded">
+                <span>My Projects</span>
+              </Button>
+            </Link>
+
             {/* <Router>
               <Link to="/comingsoon">
                 <Button color="warning" className="is-rounded">

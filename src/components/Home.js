@@ -1,8 +1,8 @@
 import React from "react";
-import "../../App.css";
+import "../App.css";
 
-import MainInfo from "../MainInfo";
-import MainImage from "../MainImage";
+import MainInfo from "./MainInfo";
+import MainImage from "./MainImage";
 
 const Home = () => {
   return (

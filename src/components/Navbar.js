@@ -1,23 +1,16 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import About from "../components/pages/About";
-import Contact from "../components/pages/Contact";
-import Home from "../components/pages/Home";
-import Projects from "../components/pages/Projects";
-import Resume from "../components/pages/Resume";
-import ComingSoon from "../components/pages/ComingSoon";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Home from "../components/Home";
+import Projects from "../components/Projects";
+import Resume from "../components/Resume";
+import ComingSoon from "../components/ComingSoon";
 
 const Navbar = () => {
   return (
     <div>
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/resume" component={Resume} />
-      <Route path="/comingsoon" component={ComingSoon} />
-
       <nav className="navbar navbar-expand-lg ">
         <button
           className="navbar-toggler"
