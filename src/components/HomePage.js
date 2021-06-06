@@ -4,7 +4,7 @@ import "../App.css";
 import MainInfo from "./MainInfo";
 import MainImage from "./MainImage";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div className="row">
       <MainInfo />
@@ -13,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

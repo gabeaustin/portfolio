@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "../src/App.css";
 
-import Home from "./components/Home";
+import HomePage from "./components/HomePage";
 import About from "./components/About";
 import ComingSoon from "./components/ComingSoon";
 import Contact from "./components/Contact";
@@ -19,7 +19,7 @@ const App = () => {
       <div>
         <Switch>
           <Route exact path="/">
-            <Home />
+            <HomePage />
           </Route>
 
           <Route exact path="/about">
