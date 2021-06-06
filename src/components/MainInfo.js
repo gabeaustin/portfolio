@@ -28,24 +28,18 @@ const MainInfo = () => {
           {/* uncomment /projects once projects page is completed  */}
           {/* <Link exact to="/projects"> */}
 
-          <Link to="comingsoon">
+          <Link to="/comingsoon">
             <Button color="warning" className="is-rounded">
-              <span>My Projects</span>
+              <span>Projects</span>
             </Button>
           </Link>
 
-          {/* <Router>
-              <Link to="/comingsoon">
-                <Button color="warning" className="is-rounded">
-                  <span>My Projects</span>
-                </Button>
-              </Link>
-              <Link to="/contact">
-                <Button color="warning" className="is-rounded">
-                  <span>Contact Me</span>
-                </Button>
-              </Link>
-            </Router> */}
+          <Link to="/contact">
+            <Button color="warning" className="is-rounded">
+              <span>Contact</span>
+            </Button>
+          </Link>
+
         </div>
       </div>
     </div>

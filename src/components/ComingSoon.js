@@ -24,7 +24,7 @@ const ComingSoon = () => {
       <div className="d-grid col-md-6 col-sm-12 mx-auto text-center mt-5">
         <Link to="/">
           <Button color="warning" className="is-rounded">
-            <span>HomePage</span>
+            <span className="home-button">Home</span>
           </Button>
         </Link>
       </div>

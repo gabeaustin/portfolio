@@ -13,7 +13,7 @@ const MainImage = () => {
       </div>
 
       <div className="my-3 text-center homePageText ownerDesc">
-        <div>
+        <div className="mb-5">
           Meet Gabe Austin
           <br />
           Future Web Developer &#64; <br />

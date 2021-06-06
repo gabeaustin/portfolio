@@ -14,6 +14,10 @@
   font-weight: 200;
 }
 
+.home-button {
+  font-family: "Raleway", sans-serif;
+}
+
 /* this needs work - want border btm when user hovers links */
 /*
 a#nav-link-home:hover,

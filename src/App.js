@@ -17,7 +17,7 @@ const App = () => {
     <BrowserRouter>
       {/* Add Navbar back when I have all the links working */}
       {/* <Navbar /> */}
-      <div>
+      <div className="App">
         <Switch>
           <Route exact path="/">
             <HomePage />
