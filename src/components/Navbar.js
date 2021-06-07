@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg">
+        <div className="logo-text">MyBoyGabe</div>
         <button
           className="navbar-toggler"
           type="button"
@@ -17,7 +20,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <ul className="nav justify-content-center">
+        <ul className="nav justify-content-center nav-links">
           <Link className="navbar-brand" to="/">
             myBoyGabe
           </Link>
@@ -41,6 +44,8 @@ const Navbar = () => {
           </li> */}
         </ul>
       </nav>
+
+      <a href="#" className="call-to-action"><Button>Contact</Button></a>
     </div>
   );
 };

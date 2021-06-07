@@ -1,0 +1,51 @@
+.navbar {
+  border: 3px solid #fff;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.logo-text {
+  font-family: "Raleway", sans-serif;
+  color: #f8f8f8;
+  font-weight: 200;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_links li a:hover {
+    color: #0088a9;
+  }
+
+  .call-to-action {
+    padding: 9px 25px;
+    /* background-color: rgba(0, 13, 169, 1); */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  .call-to-action:hover {
+    /* background-color: rgba(0, 13, 169, 0.8); */
+  }
