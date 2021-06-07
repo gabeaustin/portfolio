@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg">
-        <div className="logo-text">MyBoyGabe</div>
+        {/* <div className="logo-text">MyBoyGabe</div> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -20,22 +20,18 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <ul className="nav justify-content-center nav-links">
-          <Link className="navbar-brand" to="/">
-            myBoyGabe
-          </Link>
-
+        <ul className="nav nav-links text-center">
           {/* <li className="nav-item">
             <Link to="/about">About</Link>
           </li> */}
 
-          <li className="nav-item">
+          <li className="nav-item m-2">
             <Link to="/comingsoon">Projects</Link>
           </li>
 
           {/* uncomment /projects once projects page is completed  */}
           {/* <Link to="/projects">Projects</Link> */}
-          <li className="nav-item">
+          <li className="nav-item m-2">
             <Link to="/contact">Contact</Link>
           </li>
 
@@ -44,8 +40,6 @@ const Navbar = () => {
           </li> */}
         </ul>
       </nav>
-
-      <a href="#" className="call-to-action"><Button>Contact</Button></a>
     </div>
   );
 };
