@@ -4,6 +4,25 @@ nav {
   text-align: center;
 }
 
+#brand-logo {
+  color: #ffc107;
+}
+
+.brand-logo-regular-caps {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+}
+
+.brand-logo-small-caps {
+  font-variant: small-caps;
+  text-rendering: auto;
+  font-size: 26px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
 /* ensure nav links aren't blue */
 .nav-link:link {
   color: #f8f8f8;
@@ -56,6 +75,5 @@ a:active {
 }
 
 #nav-link-items-all {
-  border: 2px solid #f43059;
   margin: auto;
 }
