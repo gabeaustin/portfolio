@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg" id="mainNav">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand logo-text">
           myBoyGabe
@@ -20,8 +20,9 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0" id="nav-link-items-all">
             <li className="nav-item m-2">
               <Link to="/comingsoon" className="nav-link">
                 Projects
@@ -37,7 +38,7 @@ const Navbar = () => {
 
           <div className="d-none d-md-block">
             <button class="btn btn-outline-warning contact-cta-btn">
-              Contact
+              <a href="mailto:gabriel.austin2019@gmail.com">Contact</a>
             </button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 nav {
   background-color: transparent;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 /* ensure nav links aren't blue */
@@ -10,7 +11,17 @@ nav {
   transition: all 0.3s ease 0.2s;
 }
 
+a:link {
+  color: #ffc107;
+  text-decoration: none;
+}
+
 .nav-link:visited {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+a:visited {
   color: #f8f8f8;
   text-decoration: none;
 }
@@ -20,8 +31,18 @@ nav {
   text-decoration: none;
 }
 
+a:hover {
+  color: #3c4f3b;
+  text-decoration: none;
+}
+
 .nav-link:active {
-  color: #f8f8f8;
+  color: #ffc107;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffc107;
   text-decoration: none;
 }
 
@@ -32,4 +53,9 @@ nav {
 
 .contact-cta-btn:hover {
   color: #3c4f3b;
+}
+
+#nav-link-items-all {
+  border: 2px solid #f43059;
+  margin: auto;
 }
