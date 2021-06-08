@@ -1,24 +1,40 @@
-/* .navbar {
-  border: 3px solid #fff;
-}
-
-li,
-a {
+nav {
+  background-color: transparent;
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 22px;
-  color: #f8f8f8;
-  text-decoration: none;
-}
-
-.nav {
-  list-style: none;
-}
-
-.nav li a {
-  transition: all 0.3s ease 0s;
 }
 
 .nav li a:hover {
   color: #ffc107;
-} */
+}
+
+/* ensure nav links aren't blue */
+.nav-link:link {
+  color: #f8f8f8;
+  text-decoration: none;
+  transition: all 0.3s ease 0.2s;
+}
+
+.nav-link:visited {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+  /* color: #fb3f00; */
+  text-decoration: none;
+}
+
+.nav-link:active {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.contact-cta-btn {
+  background: linear-gradient(to left, transparent 100%, #ffc107 100%) right;
+  transition: all 1s linear;
+}
+
+.contact-cta-btn:hover {
+  color: #3c4f3b;
+}
