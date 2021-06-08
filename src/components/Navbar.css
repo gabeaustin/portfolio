@@ -3,10 +3,6 @@ nav {
   font-family: "Raleway", sans-serif;
 }
 
-.nav li a:hover {
-  color: #ffc107;
-}
-
 /* ensure nav links aren't blue */
 .nav-link:link {
   color: #f8f8f8;
@@ -21,7 +17,6 @@ nav {
 
 .nav-link:hover {
   color: #ffc107;
-  /* color: #fb3f00; */
   text-decoration: none;
 }
 
@@ -32,7 +27,7 @@ nav {
 
 .contact-cta-btn {
   background: linear-gradient(to left, transparent 100%, #ffc107 100%) right;
-  transition: all 1s linear;
+  transition: all 0.6s linear;
 }
 
 .contact-cta-btn:hover {

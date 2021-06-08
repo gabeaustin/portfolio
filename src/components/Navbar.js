@@ -35,7 +35,11 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <button class="btn btn-outline-warning contact-cta-btn">Contact</button>
+          <div className="d-none d-md-block">
+            <button class="btn btn-outline-warning contact-cta-btn">
+              Contact
+            </button>
+          </div>
         </div>
       </div>
     </nav>
