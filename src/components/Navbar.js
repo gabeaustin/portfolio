@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg" id="mainNav">
+    <nav className="navbar navbar-expand-lg mb-4" id="mainNav">
       <div className="container-fluid mx-1">
         <div className="logo-text-wrapper me-auto mb-2 mb-lg-0">
           <Link to="/" className="navbar-brand m-2" id="brand-logo">

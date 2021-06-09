@@ -1,0 +1,67 @@
+.contact-page-div {
+  font-family: "Courier Prime", monospace;
+}
+
+/* Start Terminal Colors */
+.white {
+  color: #fff;
+}
+.blue {
+  color: #87afff;
+}
+.green {
+  color: #00d700;
+}
+.yellow {
+  color: #ffd700;
+}
+.orange {
+  color: #ffaf00;
+}
+.grey {
+  color: #eee;
+}
+.black {
+  color: #444;
+}
+/* End Terminal Colors */
+
+/* Start Media Queries */
+/* @media (min-width: 0) {
+  .main-page-div {
+    font-size: 28px;
+  }
+
+  .main-page-div {
+    margin-top: 2.5em;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-page-div {
+    font-size: 38px;
+  }
+
+  .main-page-div {
+    margin-top: 2.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-page-div {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-page-div {
+    font-size: 58px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main-page-div {
+    font-size: 68px;
+  }
+} */
+/* End Media Queries */

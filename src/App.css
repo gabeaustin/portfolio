@@ -18,6 +18,15 @@
   font-family: "Raleway", sans-serif;
 }
 
+/* .button-transition {
+  background: linear-gradient(to left, transparent 100%, #ffc107 100%) right;
+  transition: all 0.6s linear;
+} */
+
+.button-transition:hover {
+  color: #3c4f3b;
+}
+
 /* this needs work - want border btm when user hovers links */
 /*
 a#nav-link-home:hover,
