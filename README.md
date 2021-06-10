@@ -16,9 +16,10 @@
 - [x] Fix text color - navbar
 - [x] Break `App.js` into Components
 - [x] Add Font Awesome mail icon and link to my email address
-- [ ] **Code Contact page to look similar to Coming Soon page**
-- [ ] Link the navbar items to each page
+- [ ] ~~Code Contact page to look similar to Coming Soon page~~
+- [x] Link the navbar items to each page
 - [ ] Code the About page
+- [ ] Code the Contact page
 - [ ] Code the Resume page
 - [ ] Code the Projects page
 - [ ] Create downloadable PDF of resume
