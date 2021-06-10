@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -30,22 +31,24 @@ const Navbar = () => {
             id="nav-link-items-all"
           >
             <li className="nav-item">
-              <Link to="/comingsoon" className="nav-link mx-4">
+              <Link to="/comingsoon" className="nav-link mx-4 fs-4">
                 Projects
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/resume" className="nav-link mx-4">
+              <Link to="/resume" className="nav-link mx-4 fs-4">
                 Resume
               </Link>
             </li>
           </ul>
 
           <div className="d-none d-md-block">
-            <button class="btn btn-outline-warning contact-cta-btn">
-              <a href="mailto:gabriel.austin2019@gmail.com">Contact</a>
-            </button>
+            <Link to="/contact">
+              <Button color="outline-warning" className="is-rounded">
+                <span>Contact</span>
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

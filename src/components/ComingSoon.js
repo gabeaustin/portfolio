@@ -6,11 +6,9 @@ import { Button } from "reactstrap";
 
 const ComingSoon = () => {
   return (
-    <div className="comingSoonContainer">
+    <div className="comingSoonContainer m-4">
       <div className="container col-md-12">
         <div className="mainPageDiv">
-          <i className="fas fa-github"></i>
-          <i className="fab fa-github"></i>
           <span className="orange">import</span>{" "}
           <span className="yellow">&#123;</span>
           <span className="white">ComingSoon</span>

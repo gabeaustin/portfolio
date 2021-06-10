@@ -147,10 +147,18 @@ hr.careerPathHr {
   color: #f8f8f8;
 }
 
+.form-label {
+  font-family: "Raleway", sans-serif;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.contact-heading {
+  color: #ffc107;
 }
 
 /* media queries */

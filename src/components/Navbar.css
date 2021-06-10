@@ -19,10 +19,6 @@ nav {
   font-size: 26px;
 }
 
-.nav-link {
-  font-size: 20px;
-}
-
 /* ensure nav links aren't blue */
 .nav-link:link {
   color: #f8f8f8;
@@ -63,15 +59,6 @@ a:hover {
 a:active {
   color: #ffc107;
   text-decoration: none;
-}
-
-.contact-cta-btn {
-  background: linear-gradient(to left, transparent 100%, #ffc107 100%) right;
-  transition: all 0.6s linear;
-}
-
-.contact-cta-btn:hover {
-  color: #3c4f3b;
 }
 
 #nav-link-items-all {

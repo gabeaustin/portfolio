@@ -9,7 +9,6 @@
 
 .mainPageDiv {
   font-size: 68px;
-  margin-top: 2em;
 }
 
 /* Start Terminal Colors */
@@ -41,19 +40,11 @@
   .mainPageDiv {
     font-size: 28px;
   }
-
-  .mainPageDiv {
-    margin-top: 2.5em;
-  }
 }
 
 @media (min-width: 576px) {
   .mainPageDiv {
     font-size: 38px;
-  }
-
-  .mainPageDiv {
-    margin-top: 2.5em;
   }
 }
 
