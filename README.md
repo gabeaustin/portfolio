@@ -11,8 +11,6 @@
 
 ## To Do
 
----
-
 - [x] Fix text color - navbar
 - [x] Break `App.js` into Components
 - [x] Add Font Awesome mail icon and link to my email address
@@ -27,11 +25,7 @@
 
 ## Bug(s)
 
----
-
 ## Feature(s)
-
----
 
 <br/>
 <br/>
