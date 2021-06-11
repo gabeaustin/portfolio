@@ -22,6 +22,7 @@
 - [ ] Code the Projects page
 - [x] Create downloadable PDF of resume
 - [ ] ~~Create Resume Scan with QR Code - need to add additional page~~
+- [ ] Add Easter Egg(s)
 
 ## Bug(s)
 
