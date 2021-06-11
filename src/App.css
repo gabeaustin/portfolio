@@ -117,6 +117,13 @@ img {
   color: #ffc107;
 }
 
+.resume-heading-hr {
+  border: 0.5px solid #ffc107;
+  clear: both;
+  height: 0;
+  opacity: 1;
+}
+
 svg:hover {
   color: #ffc107;
 }
@@ -146,6 +153,7 @@ svg:hover {
 
   .no-show-on-mobile {
     visibility: hidden;
+    display: none;
   }
 }
 
@@ -156,5 +164,6 @@ svg:hover {
 
   .no-show-on-computer {
     visibility: hidden;
+    display: none;
   }
 }

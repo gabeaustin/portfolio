@@ -40,10 +40,112 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="container mt-3 pt-3 no-show-on-computer">
+      <div className="container p-3 mb-5 no-show-on-computer">
         <div className="row">
-          <div className="mb-4 h1 resume-heading row justify-content-center">
+          <div className="mb-5 h1 resume-heading row justify-content-center">
             Resume
+          </div>
+
+          <div className="mb-3 h1 row justify-content-center">
+            Gabriel Austin
+            <hr className="resume-heading-hr w-50 justify-content-center" />
+          </div>
+          <div>
+            <div className="fs-2 resume-heading">Summary</div>
+            <p className="fs-4">
+              Experienced Web Developer with the ability to manage client
+              relationships, control budgets, and design web applications.
+            </p>
+
+            <div className="fs-2 resume-heading">Skills</div>
+            <p className="fs-4">
+              <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>MySQL</li>
+                <li>Version Control (Git)</li>
+                <li>Agile Web Development</li>
+                <li>Scrum</li>
+                <li>Project Management</li>
+                <li>Teaching</li>
+                <li>Training</li>
+              </ul>
+            </p>
+
+            <div className="fs-2 resume-heading">Work History</div>
+            <p className="fs-4 mb-5">
+              07/2019 - 06/2020 <br />
+              Computer Science Teacher <br />
+              Uncommon Schools <br />
+              Brooklyn, NY <br />
+              <ul>
+                <li>Developed curriculum for the school year</li>
+                <li>Taught students how to write and debug code</li>
+                <li>Designed coding challenges to measure progress</li>
+                <li>Improved instruction based on data collected</li>
+              </ul>
+            </p>
+
+            <p className="fs-4 mb-5">
+              06/2017 - 06/2019 <br />
+              Office Manager <br />
+              Uncommon Schools <br />
+              Brooklyn, NY <br />
+              <ul>
+                <li>Managed office budget and financial databases</li>
+                <li>Built positive relationships with parents and vendors</li>
+              </ul>
+            </p>
+
+            <p className="fs-4 mb-5">
+              09/2015 - 06/2016 <br />
+              Web Developer <br />
+              AgSmarts <br />
+              Memphis, TN <br />
+              <ul>
+                <li>Ensured projects were delivered on time</li>
+                <li>Developed wireframes and created mockups for clients</li>
+                <li>Maintained website using Ruby, JavaScript, and jQuery</li>
+              </ul>
+            </p>
+
+            <p className="fs-4 mb-5">
+              03/2014 - 09/2015 <br />
+              Jr. Web Developer <br />
+              ProctorU <br />
+              Birmingham, AL <br />
+              <ul>
+                <li>
+                  Maintained and improved features for a scheduling system using
+                  Ruby, HTML, CSS, Bootstrap, and JavaScript
+                </li>
+                <li>Added features and fixed bugs based on Trello board</li>
+                <li>Participated in the implementation design processes</li>
+                <li>Liaison between development team, staff, and clients</li>
+              </ul>
+            </p>
+
+            <div className="fs-2 resume-heading">Education</div>
+
+            <p className="fs-4 mb-5">
+              Certificate Program <br />
+              Full Stack Web Development Bootcamp <br />
+              Innovate Birmingham
+            </p>
+
+            <p className="fs-4 mb-5">
+              Master of Science (M.S.) <br />
+              Management Information Systems (MIS) <br />
+              University of Alabama at Birmingham
+            </p>
+
+            <p className="fs-4 mb-5">
+              Bachelor of Science (B.S.) <br />
+              Computer Information Systems (CIS) <br />
+              Alabama State University
+            </p>
           </div>
         </div>
       </div>
