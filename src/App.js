@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Worker } from "@react-pdf-viewer/core";
 import "../src/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,7 +17,8 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <BrowserRouter>
-      {/* Add Navbar back when I have all the links working */}
+      {/* This is for PDF viewer  */}
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js"></Worker>
       <Navbar />
       <div className="App">
         <Switch>

@@ -161,6 +161,10 @@ img {
   color: #ffc107;
 }
 
+.resume-viewer-container {
+  border: 3px solid hotpink;
+}
+
 /* media queries */
 @media (max-width: 576px) {
   #ownerName {
