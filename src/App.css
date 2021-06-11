@@ -132,6 +132,10 @@ img {
   color: #f8f8f8;
 }
 
+.svg-bars-nav {
+  color: #ffc107;
+}
+
 /* media queries */
 @media (max-width: 576px) {
   #ownerName {

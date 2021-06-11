@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
+import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -22,7 +23,9 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon svg-bars-nav">
+            <FaBars />
+          </span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarText">
