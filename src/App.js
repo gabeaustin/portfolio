@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Worker } from "@react-pdf-viewer/core";
 import "../src/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import HomePage from "./components/HomePage";
 import About from "./components/About";
