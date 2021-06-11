@@ -26,7 +26,7 @@ const Resume = () => {
               <FaHandPointRight className="svg-hand-point col-md-4 col-lg-4" />
               <a href={resume} target="_blank">
                 <FaFile
-                  className="mainPageFooterIcons mx-4"
+                  className="mainPageFooterIcons mx-4 svg-image-color-change"
                   data-bs-toggle="tooltip"
                   data-bs-placement="right"
                   title="Click to Download"

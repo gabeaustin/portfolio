@@ -19,22 +19,22 @@ const Contact = () => {
 
       <div className="d-flex justify-content-center">
         <a href="https://github.com/gabeaustin" target="_blank">
-          <FaGithub className="mainPageFooterIcons contact-icons mx-4" />
+          <FaGithub className="mainPageFooterIcons svg-image-color-change mx-4" />
         </a>
         <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
-          <FaLinkedin className="mainPageFooterIcons contact-icons mx-4" />
+          <FaLinkedin className="mainPageFooterIcons svg-image-color-change mx-4" />
         </a>
 
         <a href={resume} target="_blank">
           <FaFile
-            className="mainPageFooterIcons contact-icons mx-4"
+            className="mainPageFooterIcons svg-image-color-change mx-4"
             data-bs-toggle="tooltip"
             data-bs-placement="right"
             title="Click to Download"
           />
         </a>
         <a href="mailto:gabriel.austin2019@gmail.com">
-          <FaEnvelope className="mainPageFooterIcons contact-icons mx-4" />
+          <FaEnvelope className="mainPageFooterIcons svg-image-color-change mx-4" />
         </a>
       </div>
 

@@ -124,7 +124,7 @@ img {
   opacity: 1;
 }
 
-svg:hover {
+.svg-image-color-change:hover {
   color: #ffc107;
 }
 
