@@ -18,10 +18,10 @@
 - [x] Link the navbar items to each page
 - [ ] Code the About page
 - [x] Code the Contact page
-- [ ] Code the Resume page
+- [x] Code the Resume page
 - [ ] Code the Projects page
-- [ ] Create downloadable PDF of resume
-- [ ] Create Resume Scan with QR Code - need to add additional page
+- [x] Create downloadable PDF of resume
+- [ ] ~~Create Resume Scan with QR Code - need to add additional page~~
 
 ## Bug(s)
 
