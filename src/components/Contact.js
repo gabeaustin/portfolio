@@ -9,9 +9,9 @@ import resume from "../pdfs/resume.pdf";
 const Contact = () => {
   return (
     <div className="container mt-3 pt-3">
-      <h1 className="mb-3 contact-heading row justify-content-center">
+      <div className="h1 mb-3 contact-heading row justify-content-center">
         Contact Me
-      </h1>
+      </div>
 
       <span className="h1 mb-5 row justify-content-center">
         Socials / Resume / Email

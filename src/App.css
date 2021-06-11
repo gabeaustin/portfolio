@@ -157,8 +157,17 @@ img {
   height: auto;
 }
 
-.contact-heading {
+.contact-heading,
+.resume-heading {
   color: #ffc107;
+}
+
+svg:hover {
+  color: #ffc107;
+}
+
+.svg-hand-point:hover {
+  color: #f8f8f8;
 }
 
 .resume-viewer-container {
