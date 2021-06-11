@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
 import { Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
@@ -35,14 +37,22 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="container-fluid d-none d-lg-block mb-5 pb-5 resume-viewer-container">
+        <div className="container-fluid d-none d-lg-block mb-5 resume-viewer-container">
           <Viewer fileUrl={PDF} />
+        </div>
+
+        <div className="d-grid col-md-6 col-sm-12 mx-auto text-center">
+          <Link to="/">
+            <Button color="warning" className="is-rounded mb-5">
+              <span className="home-button">Home</span>
+            </Button>
+          </Link>
         </div>
       </div>
 
       <div className="container p-3 mb-5 no-show-on-computer">
         <div className="row">
-          <div className="mb-5 h1 resume-heading row justify-content-center">
+          <div className="mb-3 h1 resume-heading row justify-content-center">
             Resume
           </div>
 
@@ -147,6 +157,14 @@ const Resume = () => {
               Alabama State University
             </p>
           </div>
+        </div>
+
+        <div className="d-grid col-md-6 col-sm-12 mx-auto text-center">
+          <Link to="/">
+            <Button color="warning" className="is-rounded mb-5">
+              <span className="home-button">Home</span>
+            </Button>
+          </Link>
         </div>
       </div>
     </>
