@@ -17,7 +17,7 @@
 - [ ] ~~Code Contact page to look similar to Coming Soon page~~
 - [x] Link the navbar items to each page
 - [ ] Code the About page
-- [ ] Code the Contact page
+- [x] Code the Contact page
 - [ ] Code the Resume page
 - [ ] Code the Projects page
 - [ ] Create downloadable PDF of resume
