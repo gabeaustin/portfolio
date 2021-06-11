@@ -16,13 +16,13 @@ const Resume = () => {
           Resume
         </div>
 
-        <div className="h3 row justify-content-center d-none d-lg-block">
+        <div className="h3 row justify-content-center no-show-on-mobile">
           Click to Download
         </div>
 
-        <div className="row justify-content-center border mb-4 d-none d-lg-block">
-          <div className="h1 justify-content-center col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <FaHandPointRight className="svg-hand-point col-xs-4 col-sm-4 col-md-4 col-lg-4" />
+        <div className="row justify-content-center mb-4 no-show-on-mobile">
+          <div className="h1 justify-content-center col-md-4 col-lg-4">
+            <FaHandPointRight className="svg-hand-point col-md-4 col-lg-4" />
             <a href={resume} target="_blank">
               <FaFile
                 className="mainPageFooterIcons mx-4"
@@ -31,7 +31,7 @@ const Resume = () => {
                 title="Click to Download"
               />
             </a>
-            <FaHandPointLeft className="svg-hand-point col-xs-4 col-sm-4 col-md-4 col-lg-4" />
+            <FaHandPointLeft className="svg-hand-point col-md-4 col-lg-4" />
           </div>
         </div>
       </div>

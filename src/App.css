@@ -170,9 +170,10 @@ svg:hover {
   color: #f8f8f8;
 }
 
-.resume-viewer-container {
-  border: 3px solid hotpink;
+.no-show-on-mobile {
+  display: none;
 }
+
 
 /* media queries */
 @media (max-width: 576px) {
