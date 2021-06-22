@@ -8,9 +8,10 @@ import archFirmImg from "../images/arch-firm-screenshot.jpg";
 
 const Projects = () => {
   return (
-    <div className="container">
-      <h1 className="title is-1">This is the Projects Page</h1>
-      <h3>PROJECTS PROJECTS PROJECTS</h3>
+    <div className="container mt-3 pt-3">
+      <div className="h1 mb-4 contact-heading row justify-content-center">
+        Recent Projects
+      </div>
 
       <div className="row">
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch">

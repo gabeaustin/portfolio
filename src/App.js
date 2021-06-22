@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import HomePage from "./components/HomePage";
-import About from "./components/About";
 import ComingSoon from "./components/ComingSoon";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -25,10 +24,6 @@ const App = () => {
         <Switch>
           <Route exact path="/">
             <HomePage />
-          </Route>
-
-          <Route exact path="/about">
-            <About />
           </Route>
 
           <Route exact path="/contact">
