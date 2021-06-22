@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
 import justMyLuckImg from "../images/just-my-luck-screenshot.jpg";

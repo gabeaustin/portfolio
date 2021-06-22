@@ -1,4 +1,4 @@
-# Gabe's Portfolio
+# Gabe's Portfolio - [www.myboygabe.com](http://www.myboygabe.com)
 
 <br />
 
@@ -16,10 +16,11 @@
 - [x] Add Font Awesome mail icon and link to my email address
 - [ ] ~~Code Contact page to look similar to Coming Soon page~~
 - [x] Link the navbar items to each page
-- [ ] Code the About page
+- [ ] ~~Code the About page~~
 - [x] Code the Contact page
 - [x] Code the Resume page
-- [ ] Code the Projects page
+- [x] Code the Projects page
+- [ ] Center the cards on the Projects page - mobile
 - [x] Create downloadable PDF of resume
 - [ ] ~~Create Resume Scan with QR Code - need to add additional page~~
 - [ ] Add Easter Egg(s)
@@ -31,7 +32,6 @@
 <br/>
 <br/>
 
----
 
 :octocat:&nbsp;&nbsp;Gabe's Portfolio&nbsp;&nbsp;:octocat: <br/>
 :bowtie:&nbsp;&nbsp;A Gabe A. Production&nbsp;&nbsp;:bowtie:
