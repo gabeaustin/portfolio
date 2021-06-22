@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
 import justMyLuckImg from "../images/just-my-luck-screenshot.jpg";
@@ -12,8 +13,8 @@ const Projects = () => {
       <h3>PROJECTS PROJECTS PROJECTS</h3>
 
       <div className="row">
-        <div className="col-md-6">
-          <div className="card mb-4">
+        <div className="col-lg-6 col-md-6 col-sm-6 d-flex align-itmes-stretch">
+          <div className="card mb-5">
             <img
               src={justMyLuckImg}
               alt="Just My Luck Website"
@@ -21,7 +22,6 @@ const Projects = () => {
             />
             <div className="card-body">
               <h5 className="card-title text-center">Just My Luck</h5>
-              {/* <h6 className="card-subtitle mb-2 text-muted"></h6> */}
               <p className="card-text">
                 This is an interactive slot machine. The user has to get three
                 2’s to win. I created this project to get a better understanding
@@ -29,15 +29,57 @@ const Projects = () => {
               </p>
 
               <div className="project-link-btns-container text-center">
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  {/* <button type="button" class="btn btn-primary"> */}
-                  <Button color="outline-warning" className="is-rounded">
-                    Website
+                <a
+                  href="http://myboygabe.com/projects/just_my_luck/"
+                  target="_blank"
+                >
+                  <Button color="warning" className="mx-2">
+                    <span>Website</span>
                   </Button>
-                  <Button color="outline-warning" className="is-rounded">
+                </a>
+
+                <a
+                  href="https://github.com/gabeaustin/just-my-luck"
+                  target="_blank"
+                >
+                  <Button color="warning" className="mx-2">
                     GitHub
                   </Button>
-                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-6 col-md-6 col-sm-6 d-flex align-itmes-stretch mx-auto">
+          <div className="card mb-5">
+            <img
+              src={countdownTimer}
+              alt="Countdown Timer Website"
+              className="card-img-top mx-auto pt-5"
+            />
+            <div className="card-body">
+              <h5 className="card-title text-center">Countdown Timer</h5>
+              <p className="card-text">
+                This is a countdown timer that I created using React and
+                Bootstrap. You can see the seconds tick down to special date.
+              </p>
+
+              <div className="project-link-btns-container text-center">
+                <a href="#" target="_blank">
+                  <Button color="warning" className="mx-2">
+                    <span>Website</span>
+                  </Button>
+                </a>
+
+                <a
+                  href="https://github.com/gabeaustin/countdown-timer"
+                  target="_blank"
+                >
+                  <Button color="warning" className="mx-2">
+                    GitHub
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
