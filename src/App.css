@@ -120,6 +120,10 @@ img {
     color: #222;
 }
 
+.arch-firm-btn {
+    pointer-events: none;
+}
+
 .contact-heading,
 .resume-heading {
   color: #ffc107;
