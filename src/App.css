@@ -108,8 +108,17 @@ hr.careerPathHr {
 
 img {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 80%;
   height: auto;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card-title, .card-text {
+    color: #222;
 }
 
 .contact-heading,

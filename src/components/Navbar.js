@@ -34,7 +34,8 @@ const Navbar = () => {
             id="nav-link-items-all"
           >
             <li className="nav-item">
-              <Link to="/comingsoon" className="nav-link mx-4 fs-4">
+              {/* <Link to="/comingsoon" className="nav-link mx-4 fs-4"> */}
+              <Link to="/projects" className="nav-link mx-4 fs-4">
                 Projects
               </Link>
             </li>
