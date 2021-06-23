@@ -63,8 +63,8 @@ const Projects = () => {
               <h5 className="card-title text-center">Site Redesign</h5>
               <p className="card-text">
                 This is an ongoing website redesign for an architecture firm.
-                For this project I used React and Bootstrap. I also used the
-                Waterfall Project Management Methodology for this project.
+                For this project, I used React and Bootstrap. I also used the
+                Waterfall Project Management Methodology.
               </p>
 
               <div className="project-link-btns-container text-center">
@@ -108,7 +108,7 @@ const Projects = () => {
               </p>
 
               <div className="project-link-btns-container text-center">
-                <a href="#" target="_blank">
+                <a href="#">
                   <Button color="warning" className="mx-2">
                     <span>Website</span>
                   </Button>
