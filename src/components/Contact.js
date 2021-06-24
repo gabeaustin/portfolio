@@ -18,14 +18,14 @@ const Contact = () => {
       </span>
 
       <div className="d-flex justify-content-center">
-        <a href="https://github.com/gabeaustin" target="_blank">
+        <a href="https://github.com/gabeaustin" target="_blank" rel="noreferrer">
           <FaGithub className="mainPageFooterIcons svg-image-color-change mx-4" />
         </a>
-        <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
+        <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank" rel="noreferrer">
           <FaLinkedin className="mainPageFooterIcons svg-image-color-change mx-4" />
         </a>
 
-        <a href={resume} target="_blank">
+        <a href={resume} target="_blank" rel="noreferrer">
           <FaFile
             className="mainPageFooterIcons svg-image-color-change mx-4"
             data-bs-toggle="tooltip"

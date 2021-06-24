@@ -8,10 +8,10 @@ const Footer = () => {
         <a href="mailto:gabriel.austin2019@gmail.com">
           <FaEnvelope className="mainPageFooterIcons mx-4" />
         </a>
-        <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
+        <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank" rel="noreferrer">
           <FaLinkedin className="mainPageFooterIcons mx-4" />
         </a>
-        <a href="https://github.com/gabeaustin" target="_blank">
+        <a href="https://github.com/gabeaustin" target="_blank" rel="noreferrer">
           <FaGithub className="mainPageFooterIcons mx-4" />
         </a>
       </footer>

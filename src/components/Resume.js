@@ -24,7 +24,7 @@ const Resume = () => {
           <div className="row justify-content-center mb-4">
             <div className="h1 justify-content-center col-md-4 col-lg-4">
               <FaHandPointRight className="svg-hand-point col-md-4 col-lg-4" />
-              <a href={resume} target="_blank">
+              <a href={resume} target="_blank" rel="noreferrer">
                 <FaFile
                   className="mainPageFooterIcons mx-4 svg-image-color-change"
                   data-bs-toggle="tooltip"

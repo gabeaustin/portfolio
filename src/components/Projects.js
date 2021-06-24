@@ -33,6 +33,7 @@ const Projects = () => {
                 <a
                   href="http://myboygabe.com/projects/just_my_luck/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Button color="warning" className="mx-2">
                     <span>Website</span>
@@ -42,6 +43,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/gabeaustin/just-my-luck"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Button color="warning" className="mx-2">
                     GitHub
@@ -68,7 +70,12 @@ const Projects = () => {
               </p>
 
               <div className="project-link-btns-container text-center">
-                <a href="#" target="_blank" className="arch-firm-btn">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="arch-firm-btn"
+                >
                   <Button
                     color="warning disabled "
                     className="mx-2"
@@ -83,6 +90,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/gabeaustin/stout-architecture"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Button color="warning" className="mx-2">
                     GitHub
@@ -108,7 +116,7 @@ const Projects = () => {
               </p>
 
               <div className="project-link-btns-container text-center">
-                <a href="#">
+                <a href="http://www.myboygabe.com/projects/countdown-timer">
                   <Button color="warning" className="mx-2">
                     <span>Website</span>
                   </Button>
@@ -117,6 +125,8 @@ const Projects = () => {
                 <a
                   href="https://github.com/gabeaustin/countdown-timer"
                   target="_blank"
+                  rel="noreferrer"
+                  rel="noreferrer"
                 >
                   <Button color="warning" className="mx-2">
                     GitHub
