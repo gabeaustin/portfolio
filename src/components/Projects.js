@@ -71,7 +71,7 @@ const Projects = () => {
 
               <div className="project-link-btns-container text-center">
                 <a
-                  href="#"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                   className="arch-firm-btn"
@@ -116,7 +116,11 @@ const Projects = () => {
               </p>
 
               <div className="project-link-btns-container text-center">
-                <a href="http://www.myboygabe.com/projects/countdown-timer">
+                <a
+                  href="http://www.myboygabe.com/projects/countdown-timer"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Button color="warning" className="mx-2">
                     <span>Website</span>
                   </Button>
@@ -125,7 +129,6 @@ const Projects = () => {
                 <a
                   href="https://github.com/gabeaustin/countdown-timer"
                   target="_blank"
-                  rel="noreferrer"
                   rel="noreferrer"
                 >
                   <Button color="warning" className="mx-2">
@@ -137,25 +140,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="row">
-        <div className="d-flex justify-content-center mb-5 border">
-          <div className="col-md-6 mx-5">
-            <img
-              src={justMyLuckImg}
-              className="rounded  img-responsive"
-              alt="Just My Luck Game Web Page"
-            />
-          </div>
-          <div className="col-md-6">
-            <img
-              src={countdownTimer}
-              className="rounded  img-responsive"
-              alt="Countdown Timer Web Page"
-            />
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

@@ -24,28 +24,13 @@ const MainInfo = () => {
             technical information to non-technical audiences.
           </p>
         </div>
-        {/* <div className="d-grid gap-5 col-md-6 col-sm-12 mx-auto d-flex"> */}
-        {/* uncomment /projects once projects page is completed  */}
-        {/* <Link exact to="/projects"> */}
-        {/* 
-          <Link to="/comingsoon">
-            <Button color="warning" className="is-rounded mx-auto">
-              <span>Projects</span>
-            </Button>
-          </Link> */}
         <div className="d-grid col-md-6 col-sm-12 mx-auto text-center my-5">
-          <Link to="/comingsoon">
+          <Link to="/projects">
             <Button color="warning" className="is-rounded mx-auto">
               <span>Projects</span>
             </Button>
           </Link>
         </div>
-        {/* <Link to="/contact">
-            <Button color="warning" className="is-rounded">
-              <span>Contact</span>
-            </Button>
-          </Link> */}
-        {/* </div> */}
       </div>
     </div>
   );
