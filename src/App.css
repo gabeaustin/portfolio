@@ -113,7 +113,7 @@ img {
 }
 
 .card {
-    width: 18rem;
+    max-width: 26rem;
 }
 
 .card-title, .card-text {

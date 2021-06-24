@@ -20,10 +20,11 @@
 - [x] Code the Contact page
 - [x] Code the Resume page
 - [x] Code the Projects page
-- [ ] Center the cards on the Projects page - mobile
+- [x] Center the cards on the Projects page - mobile
 - [x] Create downloadable PDF of resume
 - [ ] ~~Create Resume Scan with QR Code - need to add additional page~~
 - [ ] Add Easter Egg(s)
+- [ ] Have footer to stay at the bottom of the page
 
 ## Bug(s)
 

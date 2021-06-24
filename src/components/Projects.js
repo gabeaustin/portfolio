@@ -13,7 +13,7 @@ const Projects = () => {
         Recent Projects
       </div>
 
-      <div className="row">
+      <div className="row cards-container">
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch">
           <div className="card mb-5">
             <img
