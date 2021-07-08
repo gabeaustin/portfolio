@@ -11,6 +11,7 @@ import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 {/* Lazy Loading for Site Optimization - lines below */}
 const HomePage = lazy(() => import("./components/HomePage"));
 const Resume = lazy(() => import("./components/Resume"));
