@@ -31,6 +31,8 @@
   - **Solution to B.01**: Route-level code splitting. Added lazy-loading to HomePage and Resume components.
 
 ## Feature(s)
+- [ ] F.01: Add images of the finished product to the `README.md` file
+- [ ] F.02: Add Open Graph data to meta tags
 
 <br/>
 <br/>
