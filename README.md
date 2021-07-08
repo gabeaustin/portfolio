@@ -2,14 +2,31 @@
 
 <br />
 
-### Technology Used
+This is a fully responsive, mobile-friendly portfolio site that displays my work.
+
+<br />
+
+## Images of the Finished Product
+
+**Cell Phone Image** <br />
+![Mobile Image](./src/images/screenshot-photos/mobile-view.png)
+
+**Tablet Image** <br />
+![Tablet Image](./src/images/screenshot-photos/tablet-view.jpg)
+
+**Desktop Image** <br />
+![Mobile Image](./src/images/screenshot-photos/desktop-view.jpg)
+
+<br />
+
+### **Technology Used**
 
 :heavy_check_mark:&nbsp;&nbsp; React <br />
 :heavy_check_mark:&nbsp;&nbsp; Bootstrap <br />
 :heavy_check_mark:&nbsp;&nbsp; Node Package Manager (NPM) <br />
 :heavy_check_mark:&nbsp;&nbsp; Font Awesome <br />
 
-## To Do
+## **To Do**
 
 - [x] Fix text color - navbar
 - [x] Break `App.js` into Components
@@ -26,11 +43,13 @@
 - [ ] ~~Create Resume Scan with QR Code - need to add additional page~~
 - [ ] ~~Add Easter Egg(s)~~
 
-## Bug(s)
-- [x] B.01: Reduce page loading speed for homepage and resume page
+## **Bug(s)**
+- [x] **B.01**: Reduce page loading speed for homepage and resume page
   - **Solution to B.01**: Route-level code splitting. Added lazy-loading to HomePage and Resume components.
 
-## Feature(s)
+## **Feature(s)**
+- [x] **F.01**: Add images of the finished product to the `README.md` file
+- [x] **F.02**: Add Open Graph data to meta tags
 
 <br/>
 <br/>
