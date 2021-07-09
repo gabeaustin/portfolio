@@ -4,14 +4,14 @@ import { Button } from "reactstrap";
 
 import CountdownTimer from "./ProjectsCards/CountdownTimer";
 import JustMyLuck from "./ProjectsCards/JustMyLuck";
+import SiteRedesign from "./ProjectsCards/SiteRedesign";
+import MDPProject from "./ProjectsCards/MDPProject";
 
 {
   /* OLD COMPONENTS */
 }
 
-// import archFirmImg from "../images/arch-firm-screenshot.jpg";
 // import cardComponentDesktopImg from "../images/card-component-desktop-view.jpeg";
-// import mdbTabletImg from "../images/mdb-tablet-view.jpg";
 
 {
   /* END OLD COMPONENTS */
@@ -31,7 +31,8 @@ const Projects = () => {
         </div>
 
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch">
-          {/* ARCH FIRM  */}
+          {/* ARCH FIRM / SITE REDESIGN  */}
+          <SiteRedesign />
         </div>
 
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch mx-auto">
@@ -48,6 +49,7 @@ const Projects = () => {
 
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center mx-auto">
           {/* MDB PROJECT  */}
+          <MDPProject />
         </div>
       </div>
     </div>
