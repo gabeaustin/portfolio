@@ -6,16 +6,7 @@ import CountdownTimer from "./ProjectsCards/CountdownTimer";
 import JustMyLuck from "./ProjectsCards/JustMyLuck";
 import SiteRedesign from "./ProjectsCards/SiteRedesign";
 import MDPProject from "./ProjectsCards/MDPProject";
-
-{
-  /* OLD COMPONENTS */
-}
-
-// import cardComponentDesktopImg from "../images/card-component-desktop-view.jpeg";
-
-{
-  /* END OLD COMPONENTS */
-}
+import PurpleCard from "./ProjectsCards/PurpleCard";
 
 const Projects = () => {
   return (
@@ -44,7 +35,8 @@ const Projects = () => {
       {/* second row */}
       <div className="row cards-container">
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center">
-          {/* CARD COMPONENT DESKTOP  */}
+          {/* CARD COMPONENT DESKTOP / PURPLE CARD  */}
+          <PurpleCard />
         </div>
 
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center mx-auto">
