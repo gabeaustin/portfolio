@@ -3,12 +3,12 @@ import "../App.css";
 import { Button } from "reactstrap";
 
 import CountdownTimer from "./ProjectsCards/CountdownTimer";
+import JustMyLuck from "./ProjectsCards/JustMyLuck";
 
 {
   /* OLD COMPONENTS */
 }
 
-// import justMyLuckImg from "../images/just-my-luck-screenshot.jpg";
 // import archFirmImg from "../images/arch-firm-screenshot.jpg";
 // import cardComponentDesktopImg from "../images/card-component-desktop-view.jpeg";
 // import mdbTabletImg from "../images/mdb-tablet-view.jpg";
@@ -27,6 +27,7 @@ const Projects = () => {
       <div className="row cards-container">
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch">
           {/* JUST MY LUCK  */}
+          <JustMyLuck />
         </div>
 
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch">
@@ -34,6 +35,7 @@ const Projects = () => {
         </div>
 
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch mx-auto">
+          {/* COUNTDOWN TIMER  */}
           <CountdownTimer />
         </div>
       </div>
