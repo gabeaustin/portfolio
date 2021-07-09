@@ -50,6 +50,8 @@ This is a fully responsive, mobile-friendly portfolio site that displays my work
 ## **Feature(s)**
 - [x] **F.01**: Add images of the finished product to the `README.md` file
 - [x] **F.02**: Add Open Graph data to meta tags
+- [ ] **F.03**: Move projects into seperate components
+- [ ] **F.04**: Add new projects images &amp; rearrange the cards on the projects page
 
 <br/>
 <br/>
