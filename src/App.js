@@ -13,6 +13,7 @@ import Resume from "./components/Resume";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FourZeroFour from "./components/FourZeroFour";
 
 const App = () => {
   return (
@@ -40,6 +41,10 @@ const App = () => {
 
           <Route exact path="/comingsoon">
             <ComingSoon />
+          </Route>
+
+          <Route exact path="*">
+            <FourZeroFour />
           </Route>
         </Switch>
       </div>
