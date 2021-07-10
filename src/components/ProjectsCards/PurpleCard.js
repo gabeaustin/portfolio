@@ -13,15 +13,15 @@ const PurpleCard = () => {
         className="card-img-top mx-auto pt-5 border"
       />
       <div className="card-body">
-        <h5 className="card-title text-center">Countdown Timer</h5>
+        <h5 className="card-title text-center">Stats Card Component</h5>
         <p className="card-text pb-5">
-          This is a countdown timer that I created using React and Bootstrap.
-          You can see the seconds tick down to special date.
+          This is a PSD design converted into an HTML/CSS template. This
+          template is fully responsive and mobile-friendly.
         </p>
 
         <div className="project-link-btns-container text-center">
           <a
-            href="http://www.myboygabe.com/projects/countdown-timer"
+            href="http://www.myboygabe.com/projects/stats-card-component"
             target="_blank"
             rel="noreferrer"
           >
@@ -31,7 +31,7 @@ const PurpleCard = () => {
           </a>
 
           <a
-            href="https://github.com/gabeaustin/countdown-timer"
+            href="https://github.com/gabeaustin/redo-stats-preview-card"
             target="_blank"
             rel="noreferrer"
           >

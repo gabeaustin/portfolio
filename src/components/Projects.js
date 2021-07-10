@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { Button } from "reactstrap";
 
 import CountdownTimer from "./ProjectsCards/CountdownTimer";
 import JustMyLuck from "./ProjectsCards/JustMyLuck";
@@ -15,6 +14,7 @@ const Projects = () => {
         Recent Projects
       </div>
 
+      {/* first row */}
       <div className="row cards-container">
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-itmes-stretch">
           {/* JUST MY LUCK  */}
@@ -34,15 +34,17 @@ const Projects = () => {
 
       {/* second row */}
       <div className="row cards-container">
-        <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center">
+        <div className="border col-lg-2 col-md-2 col-sm-2 d-flex align-items-start"></div>
+        <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-start justify-content-around">
           {/* CARD COMPONENT DESKTOP / PURPLE CARD  */}
           <PurpleCard />
         </div>
 
-        <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center mx-auto">
+        <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-start justify-content-around">
           {/* MDB PROJECT  */}
           <MDPProject />
         </div>
+        <div className="border col-lg-2 col-md-2 col-sm-2 d-flex align-items-start"></div>
       </div>
     </div>
   );

@@ -9,19 +9,18 @@ const MDPProject = () => {
     <div className="card mb-5">
       <img
         src={mdbTabletImg}
-        alt="Countdown Timer Website"
+        alt="PSD to HTML Conversion Website"
         className="card-img-top mx-auto pt-5 border"
       />
       <div className="card-body">
-        <h5 className="card-title text-center">Countdown Timer</h5>
+        <h5 className="card-title text-center">MDB Project</h5>
         <p className="card-text pb-5">
-          This is a countdown timer that I created using React and Bootstrap.
-          You can see the seconds tick down to special date.
+          This is an HTML email template designed for email marketing campaigns.
         </p>
 
         <div className="project-link-btns-container text-center">
           <a
-            href="http://www.myboygabe.com/projects/countdown-timer"
+            href="http://www.myboygabe.com/projects/mdb-project"
             target="_blank"
             rel="noreferrer"
           >
@@ -31,7 +30,7 @@ const MDPProject = () => {
           </a>
 
           <a
-            href="https://github.com/gabeaustin/countdown-timer"
+            href="https://github.com/gabeaustin/MDB-project"
             target="_blank"
             rel="noreferrer"
           >
