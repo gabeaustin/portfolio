@@ -35,7 +35,7 @@ const App = () => {
             <Projects />
           </Route>
 
-          <Route path="/resume">
+          <Route path="/resume" exact>
             <Resume />
           </Route>
 
