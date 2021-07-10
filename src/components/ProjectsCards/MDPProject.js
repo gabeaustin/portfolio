@@ -14,7 +14,7 @@ const MDPProject = () => {
       />
       <div className="card-body">
         <h5 className="card-title text-center">MDB Project</h5>
-        <p className="card-text pb-5">
+        <p className="card-text mb-5">
           This is an HTML email template designed for email marketing campaigns.
         </p>
 

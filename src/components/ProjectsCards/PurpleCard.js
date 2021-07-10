@@ -10,11 +10,11 @@ const PurpleCard = () => {
       <img
         src={cardComponentDesktopImg}
         alt="Countdown Timer Website"
-        className="card-img-top mx-auto mt-5 border mb-4"
+        className="card-img-top mx-auto mt-5 border mb-5"
       />
       <div className="card-body">
         <h5 className="card-title text-center">Stats Card Component</h5>
-        <p className="card-text pb-5">
+        <p className="card-text mb-4">
           This is a PSD design converted into an HTML/CSS template. This
           template is fully responsive and mobile-friendly.
         </p>
