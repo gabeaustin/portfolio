@@ -21,7 +21,7 @@ const PurpleCard = () => {
 
         <div className="project-link-btns-container text-center">
           <a
-            href="http://www.myboygabe.com/projects/stats-card-component"
+            href="https://www.myboygabe.com/projects/stats-preview-card/"
             target="_blank"
             rel="noreferrer"
           >
