@@ -10,7 +10,7 @@ const CountdownTimer = () => {
       <img
         src={countdownTimer}
         alt="Countdown Timer Website"
-        className="card-img-top mx-auto pt-5 border"
+        className="card-img-top mx-auto mt-5 border mb-5"
       />
       <div className="card-body">
         <h5 className="card-title text-center">Countdown Timer</h5>

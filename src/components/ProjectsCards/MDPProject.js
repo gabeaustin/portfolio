@@ -10,7 +10,7 @@ const MDPProject = () => {
       <img
         src={mdbTabletImg}
         alt="PSD to HTML Conversion Website"
-        className="card-img-top mx-auto pt-5 border"
+        className="card-img-top mx-auto mt-5 border w-75"
       />
       <div className="card-body">
         <h5 className="card-title text-center">MDB Project</h5>

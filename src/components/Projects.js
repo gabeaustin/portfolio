@@ -34,7 +34,7 @@ const Projects = () => {
 
       {/* second row */}
       <div className="row cards-container">
-        <div className="border col-lg-2 col-md-2 col-sm-2 d-flex align-items-start"></div>
+        <div className="col-lg-2 col-md-2 col-sm-2 d-flex align-items-start"></div>
         <div className="col-lg-4 col-md-4 col-sm-4 d-flex align-items-start justify-content-around">
           {/* CARD COMPONENT DESKTOP / PURPLE CARD  */}
           <PurpleCard />
@@ -44,7 +44,7 @@ const Projects = () => {
           {/* MDB PROJECT  */}
           <MDPProject />
         </div>
-        <div className="border col-lg-2 col-md-2 col-sm-2 d-flex align-items-start"></div>
+        <div className="col-lg-2 col-md-2 col-sm-2 d-flex align-items-start"></div>
       </div>
     </div>
   );

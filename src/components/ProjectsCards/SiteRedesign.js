@@ -10,7 +10,7 @@ const SiteRedesign = () => {
       <img
         src={archFirmImg}
         alt="Architecture Firm Website"
-        className="card-img-top mx-auto border"
+        className="card-img-top mx-auto mt-5 border"
       />
       <div className="card-body">
         <h5 className="card-title text-center">Site Redesign</h5>
