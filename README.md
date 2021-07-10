@@ -44,8 +44,9 @@ This is a fully responsive, mobile-friendly portfolio site that displays my work
 - [ ] ~~Add Easter Egg(s)~~
 
 ## **Bug(s)**
-- [x] **B.01**: Reduce page loading speed for homepage and resume page
-  - **Solution to B.01**: Route-level code splitting. Added lazy-loading to HomePage and Resume components.
+- [x] ~~**B.01**: Reduce page loading speed for homepage and resume page~~
+  - ~~**Solution to B.01**: Route-level code splitting. Added lazy-loading to HomePage and Resume components.~~
+- [ ] **B.02**: Fix when resume page reloads it doesn't display properly. Same issue with the resume page. Getting a 404 error when reload resume page.
 
 ## **Feature(s)**
 - [x] **F.01**: Add images of the finished product to the `README.md` file
