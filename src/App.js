@@ -23,27 +23,27 @@ const App = () => {
       <Navbar />
       <div className="App">
         <Switch>
-          <Route exact path="/">
+          <Route path="/" exact>
             <HomePage />
           </Route>
 
-          <Route exact path="/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
 
-          <Route exact path="/projects">
+          <Route path="/projects">
             <Projects />
           </Route>
 
-          <Route exact path="/resume">
+          <Route path="/resume">
             <Resume />
           </Route>
 
-          <Route exact path="/comingsoon">
+          <Route path="/comingsoon">
             <ComingSoon />
           </Route>
 
-          <Route exact path="*">
+          <Route path="*">
             <FourZeroFour />
           </Route>
         </Switch>
