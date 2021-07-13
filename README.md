@@ -38,6 +38,8 @@ This is a fully responsive, mobile-friendly portfolio site that displays my work
 - [x] Center the cards on the Projects page - mobile
 - [x] Create downloadable PDF of resume
 - [x] Have footer to stay at the bottom of the page
+- [ ] Add dev branch 
+- [ ] Push to github pages first for testing
 - [ ] ~~Code the About page~~
 - [ ] ~~Code Contact page to look similar to Coming Soon page~~
 - [ ] ~~Create Resume Scan with QR Code - need to add additional page~~
