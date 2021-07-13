@@ -27,11 +27,11 @@ const App = () => {
             <HomePage />
           </Route>
 
-          <Route path="/contact">
+          <Route path="/contact" exact>
             <Contact />
           </Route>
 
-          <Route path="/projects">
+          <Route path="/projects" exact>
             <Projects />
           </Route>
 
@@ -39,7 +39,7 @@ const App = () => {
             <Resume />
           </Route>
 
-          <Route path="/comingsoon">
+          <Route path="/comingsoon" exact>
             <ComingSoon />
           </Route>
 
