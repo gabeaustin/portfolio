@@ -21,7 +21,12 @@ const SiteRedesign = () => {
         </p>
 
         <div className="project-link-btns-container text-center">
-          <a href="" target="_blank" rel="noreferrer" className="arch-firm-btn">
+          <a
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+            className="arch-firm-btn"
+          >
             <Button
               color="warning disabled "
               className="mx-2"
